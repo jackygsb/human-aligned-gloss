@@ -78,9 +78,11 @@ confidence bands.
 ## Running historical analyses safely
 
 The following section requires the separate full data release; its archives and
-extractor are not duplicated in this lightweight code repository. No public DOI
-or download URL has been assigned in this preparation package. Add the verified
-versioned data link after the authors publish the archive.
+extractor are not duplicated in this lightweight code repository. The existing
+[Zenodo draft 23309081](https://zenodo.org/deposit/23309081) is still undergoing
+file uploads and verification. Its DOI `10.5281/zenodo.23309081` is reserved
+only, not registered or published. It provides no public download or released
+citation at this stage. Add the verified versioned data link after publication.
 
 
 Historical scripts use a project-root directory containing `mllm_material/`,

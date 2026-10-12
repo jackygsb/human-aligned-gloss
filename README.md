@@ -7,8 +7,10 @@ Shaobing Gao and Minjie Tan contributed equally. Correspondence:
 
 Repository: **[jackygsb/human-aligned-gloss](https://github.com/jackygsb/human-aligned-gloss)**.
 This repository is being prepared privately for author review. It is not yet a
-public release or an accepted publication. No Zenodo deposit or DOI has been
-created. The scope and limits of the completed checks are recorded in
+public release or an accepted publication. Zenodo draft 23309081 has been created;
+file uploads and checksum verification are in progress. Its DOI has only been
+reserved and is not registered or available as a published citation. The scope
+and limits of the completed checks are recorded in
 [VALIDATION.md](docs/VALIDATION.md).
 
 ## What this repository contains
@@ -89,12 +91,18 @@ direction used for intervention is derived without test-image human judgments.
 
 ## Full data and citation
 
-The full data release is prepared for a subsequent Zenodo deposit. Its DOI is
-**not yet assigned**. Repository access currently requires permission from the
-owner. After the archive is deposited, its verified version-specific DOI will be
-added to this README and the citation metadata. `CITATION.cff` records author
-order and affiliations. `.zenodo.json` is intended deposit metadata; its presence
-does not mean a Zenodo record exists.
+The complete data archive is being uploaded to
+[Zenodo draft 23309081](https://zenodo.org/deposit/23309081), which requires
+authorized account access. The reserved identifier `10.5281/zenodo.23309081`
+is **not registered, published or ready for citation**. There is no public
+full-data download at this stage. GitHub also remains private.
+
+The source snapshot archived as `07_GitHub_source_c0f8da12.zip` is fixed to
+commit `c0f8da12a3bdb3fe7bc3cb4ff49eaf7a2abc3083`; later documentation updates
+do not change that archived scientific source. `CITATION.cff` records author
+order and affiliations without treating the reserved identifier as a released
+software DOI. `.zenodo.json` remains proposed software-package metadata, not
+the actual metadata or access settings of the separate full-data draft.
 
 ## License and third-party materials
 

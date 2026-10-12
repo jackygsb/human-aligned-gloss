@@ -11,13 +11,13 @@
   },
   {
     "path": ".zenodo.json",
-    "bytes": 2116,
-    "sha256": "04deb5f929781619bdb84893e8bd96f276c31c051f13b7f81d63eddc5ec1f251"
+    "bytes": 2407,
+    "sha256": "0bc78664de4b5d64ac56405dc855f6c39ae8538fe7eb4100bb5201968b25f2be"
   },
   {
     "path": "CITATION.cff",
-    "bytes": 1908,
-    "sha256": "0f39d225dd67e084c32df12cf8062c248affdccfcebb5774f5b6496c0ee92bcf"
+    "bytes": 2056,
+    "sha256": "bced6b2154f2c36d9b2007862b05d909a2352ca0f0fc7afbe8adee8bbbf83902"
   },
   {
     "path": "code/configs/behavioral_spaces_v1/analysis_plan.json",
@@ -1171,8 +1171,8 @@
   },
   {
     "path": "docs/DATA_AVAILABILITY.md",
-    "bytes": 2510,
-    "sha256": "529ab66c4cdec2743e6163bb4f93297a635d28576dfb6d2b20b517055733d3d2"
+    "bytes": 3031,
+    "sha256": "94c65044fb094d95a9e61a189f46c3070e396f16cf61094cffb2e2c70b594e69"
   },
   {
     "path": "docs/data_external_sources.json",
@@ -1186,8 +1186,8 @@
   },
   {
     "path": "docs/figure_reproduction.md",
-    "bytes": 9832,
-    "sha256": "5d6854c224d837cd1d67da8d69f957ec3861b5a2319d67e65b82567b6a9ae109"
+    "bytes": 9850,
+    "sha256": "ae09af3d1c84cd4b094e20ee6d891ce3342332d190589ec5d135701fa598b8d5"
   },
   {
     "path": "docs/figure_reproduction_pdf_audit.json",
@@ -2886,8 +2886,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 6109,
-    "sha256": "a9ee7a07231d14af08291ecdcaaed891bfe2fc5b3cc7bb4b47afbf0e2cd01a09"
+    "bytes": 6616,
+    "sha256": "4f3b1cf788db86a8dae99bfdea5c2b11e582b0687173c295826f4ca6009aaeba"
   },
   {
     "path": "THIRD_PARTY_NOTICES.md",

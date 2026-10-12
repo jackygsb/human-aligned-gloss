@@ -1,7 +1,9 @@
 cff-version: 1.2.0
 message: >-
   If you use this code, cite the authors and software title below. This
-  repository is in private preparation; no Zenodo DOI has yet been assigned.
+  repository is in private preparation. A separate full-data Zenodo draft
+  has been created, with uploads and verification in progress. Its DOI is
+  reserved only and is not registered, published or a released software DOI.
 repository-code: "https://github.com/jackygsb/human-aligned-gloss"
 title: "Human-aligned gloss judgments in frozen vision–language models: code and figure reproduction"
 version: "1.0.0"

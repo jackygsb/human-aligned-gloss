@@ -18,12 +18,19 @@ primary and exploratory response records, complete matching trajectories,
 analysis data, saved internal-state arrays, intervention records, reconstructed
 references, tiny-network checkpoints and additional provenance. It has been
 packaged into six independent ZIP archives totalling approximately 14.23 GB.
-Each archive extracts under the same release-root directory.
+Those six archives extract under the same release-root directory. A separate
+`07_GitHub_source_c0f8da12.zip` preserves the GitHub source at commit
+`c0f8da12a3bdb3fe7bc3cb4ff49eaf7a2abc3083`. Together with three archive
+description/checksum files, the upload plan contains ten files (seven ZIPs),
+totalling 14,297,892,487 bytes (approximately 14.30 GB). Consult the archive
+README for the separate source snapshot's layout.
 
-The Zenodo record has not yet been created. There is no DOI or public full-data
-download link at this stage. No script in this repository assumes that a future
-DOI already exists. Full archived analyses require those additional data, as
-documented in the reproduction guide.
+[Zenodo draft 23309081](https://zenodo.org/deposit/23309081) has been created;
+uploads and checksum verification are in progress. Its reserved DOI
+`10.5281/zenodo.23309081` is not registered or published and must not be used
+as a released-data citation. The draft requires authorized account access;
+there is no public full-data download. Full archived analyses require those
+additional data, as documented in the reproduction guide.
 
 ## Original data and third-party rights
 
