@@ -1,0 +1,16 @@
+{
+  "seed": 20260926,
+  "requests_per_model": 54400,
+  "engineering_per_model": 288,
+  "image_input": "original_512_with_background",
+  "labels_in_requests": false,
+  "sha256": {
+    "protocol/prompts.json": "39f03ba7e18687d8a30915bcc3aa1c36bbb2f9874b3f02bd6bc2916c7032a104",
+    "manifests/requests.jsonl": "5172dc5e6deb22f3cd0ce2fd503b51c42d40823dbc5aa1fc34db23daa3a5c80e",
+    "manifests/engineering.jsonl": "f709b07e219cd686b34e3a9179120c40237653504bcb813e19763504268ce680",
+    "manifests/panel432.csv": "2f25d332aa85559a9a59086c3ffc3a23444c24996d633ec372a79503976ad1e6",
+    "manifests/pairs2000_analysis_only.csv": "33b5fd6f70c3f0d2d75363f0ea8f9ebc0ed606dd09c066fa45015855ec4688d4",
+    "manifests/input_control.jsonl": "e2887194c5d1e52c5673c708a74f885148eec5c266362d8c7a3c3a1cee878ba4"
+  },
+  "additional_input_control_per_model": 864
+}

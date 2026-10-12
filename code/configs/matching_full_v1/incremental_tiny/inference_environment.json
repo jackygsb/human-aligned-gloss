@@ -1,0 +1,7 @@
+{
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "precision": "float32",
+  "batch_size": 128,
+  "tf32": false
+}

@@ -1,0 +1,16 @@
+{
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.1",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "layer_spec": {
+    "vision_06": 5,
+    "vision_12": 11,
+    "vision_18": 17,
+    "vision_24": 23,
+    "language_09": 8,
+    "language_18": 17,
+    "language_27": 26,
+    "language_36": 35
+  }
+}

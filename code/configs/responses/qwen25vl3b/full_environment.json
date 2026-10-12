@@ -1,0 +1,12 @@
+{
+  "model": "qwen25vl3b",
+  "phase": "full",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.1",
+  "python": "3.12.14",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "precision": "bfloat16",
+  "quantization": null,
+  "model_manifest_sha256": "fe62769d83c732a0013c52899e90bcc3521201735bb18b1076017c88d921cf92",
+  "prompt_sha256": "39f03ba7e18687d8a30915bcc3aa1c36bbb2f9874b3f02bd6bc2916c7032a104"
+}

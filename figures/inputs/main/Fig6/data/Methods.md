@@ -1,0 +1,18 @@
+# Frozen internal-response mechanism analysis v1
+
+Weights are frozen throughout; ridge probes are separately supervised analysis tools. Inputs are the original full stimulus set and reconstructed references. Exact prompts, image hashes, layer definitions, feature arrays, full bridge tokens and next-token vocabulary logits are archived per stimulus. No human labels enter extraction or the reference-defined intervention direction.
+
+Localization: selected vision blocks are mean-pooled; language blocks use only the final prompt token before an answer. These are different pooling choices, so a rising/descending curve is not automatically a processing hierarchy. Qwen multi-level DeepStack outputs are separately retained and reported.
+
+Readout: fixed label-free Gaussian projection to 128 features, followed by standardized ridge regression. Outer 12-group shape/illumination splits use existing folds; alpha 1/10/100 selected on a fixed group-disjoint inner validation subset. Projection matrices and all per-image predictions are saved. No layer is chosen by outer performance. Human-beyond-physical/color targets use training-only 50-level c, chroma and hue-harmonic nuisance regression; this is a residual readout, not proof of nonlinear causal specificity.
+
+Direction: normalized multivariate slope of reference mean bridge activation on c. Dose one equals the fitted full reference-range change in mean activation. The direction is added uniformly to every visual token of the TEST image only. This is neither neural deletion nor an on-manifold intervention. It may change several entangled image properties. Brightness direction is a whole-image-luminance covariance direction on non-intervention images, not ground-truth pure brightness. Three seeded random unit directions orthogonal to the candidate control intervention norm. Qwen changes its final merger output only, leaving DeepStack paths intact.
+
+Choice outcome: A, B and SAME are verified single tokens in both tokenizers. The primary outcome is their next-token normalized probability, with SAME assigned half credit. Unrestricted top tokens and total candidate probability mass are retained; normalized probabilities are not unconditional valid-answer probabilities. Full matching uses constrained argmax among these tokens with the same bisection controller, so it is a mechanistic assay, not a replacement for previously acquired free-generation behavior. Order is counterbalanced in the 72-image assay, but not in 12-image matching.
+
+Spatial maps are raw candidate-direction projections of bridge tokens, not attention or causal attribution maps. Four illustrative examples per model are lowest/highest whole-image candidate projection in the preselected intervention subset, not chosen on human agreement. Whole-image brightness and contrast are image-statistic controls, not highlighter masks.
+
+Uncertainty: intervention bootstrap resamples images after averaging both orders, 4,000 replicates, conditional on fixed selected images/direction/model. It is not uncertainty over shapes, training runs or human populations. Candidate/control bidirectional contrasts are descriptive with unadjusted intervals. No automatic claim that interventions demonstrate a pure gloss circuit or shared human neural mechanism.
+
+
+Post-run coverage audit: the predetermined first-two-IDs-per-shape intervention selection contains 36 shapes, illumination ID 1 only, and viewpoints 1/2. Intervention generalization across illumination has not been established. Supplementary shape-cluster paired-contrast intervals (36 clusters, 4,000 bootstraps) are in tables/shape_cluster_intervention_contrasts.csv. These do not replace the original retained image-bootstrap estimates.

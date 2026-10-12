@@ -1,0 +1,20 @@
+[
+  {
+    "local_id": "internvl35_4b",
+    "repository": "OpenGVLab/InternVL3_5-4B",
+    "revision": "481f6e32467eab4e922ccd7fd6cf420441a62331",
+    "role": "primary full three-task and internal analyses"
+  },
+  {
+    "local_id": "qwen25vl3b",
+    "repository": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+    "role": "exploratory responses; not a primary model in the final figures"
+  },
+  {
+    "local_id": "qwen3vl4b",
+    "repository": "Qwen/Qwen3-VL-4B-Instruct",
+    "revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+    "role": "primary full three-task and internal analyses"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_condition_tests.csv": "f7815fdc5f190fcc190befa511f6e6e09f356ebe76367bbe3bc5aef69cd671dd",
+  "mllm_material\\behavioral_spaces_v1\\tables\\rsa_results.csv": "aa18121137dcae06cd4a821626f8a037b154c2b76dfc90407dfb64fa6b3dfcce",
+  "mllm_material\\behavioral_spaces_v1\\tables\\cross_view_rsa.csv": "843971063e534e8ac87862af54d8a5d825f70897a81e8db5de13b38578682e3d",
+  "mllm_material\\qwen3_full_v1\\joint_model_predictions.csv": "d50e6b49de241e460fab5f18c06a87cf79324694b524258e244498a152480b1f",
+  "mllm_material\\mechanisms_v1\\stimuli.csv": "7f380194b90bfd3badd18bd05a67227e7412286b2d960479a5e01199fd1fb685",
+  "mllm_material\\qwen3_full_v1\\shape_id_effects.csv": "7ca0d09a8825d7439fe81fa6f2d4abfe7aa4dcb4ebc64854179c395f486506a9",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_shape_Human_rdm.csv": "2afc1315afc72725a173e8e2034366a6c59bdc8f38b2fc6072e4c2437d0d0882",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_shape_InternVL_rdm.csv": "f591b72d42155c5dae38f91f588bf06566406d2e6fbdf1747b975cfee2837476",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_shape_Qwen3_rdm.csv": "3f94bfcc006835a2e171ecedf1b28be66471ca5b140bef885f37034bd152dd63",
+  "mllm_material\\qwen3_full_v1\\illumination_id_effects.csv": "72f762772c25936451190c7c0270155746168e1887dcb81c12a30dffc7dee272",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_illumination_Human_rdm.csv": "eb34f2ebd9f6700ffca034b300612c5aa6dccb81adca83e42203da9bf16b6449",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_illumination_InternVL_rdm.csv": "70874175861ae4de64c0c9b29768faffaebdc58b679b148346dc13d3e3758158",
+  "mllm_material\\behavioral_spaces_v1\\matrices\\physical_color_adjusted_illumination_Qwen3_rdm.csv": "361336b0439964ad35154a8ae1299670160523f6107b76436bb0668d0dd48c5d",
+  "mllm_material\\paper_figures_v1\\tables\\Table6_shared_condition_effects.csv": "83436763ed7f78b66ec2f0986957861b6191c28ec5fa52c6888cc575078a6903",
+  "scripts\\analyze_behavioral_spaces_v1.py": "0e33c4f1e443ff5222438c3f379ef95974b9c6d0bfef8a91a0e4b4ac2b1752a1",
+  "scripts\\analyze_qwen3_full.py": "a26cffaa8ce99080c3cda5f86da1f74de46bf40e8da0d4b4313b3646ee06898b",
+  "scripts\\revise_nmi_stats.py": "160ae41277f5c3c4ad4d6d16dd27034be1b23e829c71b6e7d8b8451e6e4502b7"
+}

@@ -1,0 +1,343 @@
+{
+  "source": "Final supplied publication figures, after Figure 4 identity-line annotation correction",
+  "normalization": "PDF extracted text: collapse whitespace; TeX: normalize line endings and strip outer whitespace",
+  "figures": [
+    {
+      "figure": "Fig1",
+      "regenerated_path": "main/Fig1_overview.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          640.63
+        ]
+      ],
+      "text_sha256": "4c60c3cd0de56ee4d20c217e3e30b3c55471ab0fd2aba671c45bbd0d4532764a",
+      "text_characters": 2199,
+      "published_pdf_sha256": "28798f984f18dd135ed2bb03beb8cbcc2d5d1d062f92e1b152f90f24fcf20e40"
+    },
+    {
+      "figure": "Fig2",
+      "regenerated_path": "main/Figure2_HumanLike_Gloss_EN.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          617.953
+        ]
+      ],
+      "text_sha256": "3daa5426ab21c9f028b6ca76dcd835a816e6f64581be82a1afa24c56092e90bf",
+      "text_characters": 2310,
+      "published_pdf_sha256": "d7365f827649c09f99872acde1d2658472b105d62c112902c818814923b9572e"
+    },
+    {
+      "figure": "Fig3",
+      "regenerated_path": "main/Figure3_Shared_Condition_Geometry_EN.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          671.811
+        ]
+      ],
+      "text_sha256": "3331742ca6d2ca28671a017e9cfe5d52cbceb281037131f9c96a4a67a6fa78db",
+      "text_characters": 2224,
+      "published_pdf_sha256": "0a8de049908996d0cc19792086817d80dfb965e3dd9614b68e5e301e70500252"
+    },
+    {
+      "figure": "Fig4",
+      "regenerated_path": "main/Figure4_Cross_Task_Transfer_EN.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          702.992
+        ]
+      ],
+      "text_sha256": "8c4ae94a2ead683d683a5640891144473c7b285ca03930f895ead8fec5ce0b1e",
+      "text_characters": 2384,
+      "published_pdf_sha256": "ad7629632bf5ef3b7557bcc0b3151e5e0d3f7c8c43eefd756845ca38cf5d6f08"
+    },
+    {
+      "figure": "Fig5",
+      "regenerated_path": "main/Figure5_Frozen_Internal_Readout_EN.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          674.646
+        ]
+      ],
+      "text_sha256": "026b0d12dd2202400a1d392b4f538bae4f4b5b3955330d9ffc7e9e7a51191fbb",
+      "text_characters": 2549,
+      "published_pdf_sha256": "5edc0c27ce2a7fe3bc28129d9408fd9fd05a56e48c74da4d41407851217a5ab0"
+    },
+    {
+      "figure": "Fig6",
+      "regenerated_path": "main/Figure6_Internal_Direction_Intervention_EN.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          748.346
+        ]
+      ],
+      "text_sha256": "2b91248556827b918fe78481d0b118e83acb19ba08389656377358e9575fdbb7",
+      "text_characters": 1891,
+      "published_pdf_sha256": "13bf047f1e63d812386b05ab8c7e18f49856811fae4c08756e8b3cf051d765dd"
+    },
+    {
+      "figure": "S1",
+      "regenerated_path": "supplement/S1.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          728.18,
+          296.363
+        ]
+      ],
+      "text_sha256": "a57589621aa67d1e344e87092360c2552be7b7cb05cd3754429512447103c4b0",
+      "text_characters": 213,
+      "published_pdf_sha256": "c13aeec3d18ac2757a3d77af03e121738f44b7f3d9137ed4b4601e0159e5c9e4"
+    },
+    {
+      "figure": "S10",
+      "regenerated_path": "supplement/S10.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          728.351,
+          526.8
+        ]
+      ],
+      "text_sha256": "a966ea92f4781ba16597bee363b919680d683d61239fe5cf3fdd174367068c1f",
+      "text_characters": 1299,
+      "published_pdf_sha256": "c1e855b8679fba0826706ceb658a904fd5bb831d8f988a263c57ca89310cc85d"
+    },
+    {
+      "figure": "S11_methods",
+      "regenerated_path": "supplement/S11_methods.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          505.984
+        ]
+      ],
+      "text_sha256": "e227b20bae610a23b34d685842d04bf6264901c2c2c20baa419a27852541fa06",
+      "text_characters": 14278,
+      "published_pdf_sha256": "f83408963e3094706038a96290be533cc7cb6184854d705344a038fab1db8abc"
+    },
+    {
+      "figure": "S12_controller",
+      "regenerated_path": "supplement/S12_controller.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          299.055
+        ]
+      ],
+      "text_sha256": "0630c9df4952a9819a9fd1c60ca2d09f85fd51357366c72b5ced417db465e477",
+      "text_characters": 14252,
+      "published_pdf_sha256": "7dc1d17c29b361604fd7043657c53d5dbbcd53dc8475d1f2c26397cdd740fff1"
+    },
+    {
+      "figure": "S12_records",
+      "regenerated_path": "supplement/S12_records.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          396.283
+        ]
+      ],
+      "text_sha256": "fb717b57a4a7117191cb131cade7f406341e10e0bdc8b82cc335ed19b877e1d6",
+      "text_characters": 14252,
+      "published_pdf_sha256": "68d9893998ce361e1ae9485912a31181649ba23d29dd1baaf26e4b7eb7bafe43"
+    },
+    {
+      "figure": "S13_geometry",
+      "regenerated_path": "supplement/S13_geometry.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          620.787
+        ]
+      ],
+      "text_sha256": "c8c5ff9480599151e55f389117477f5f1610fc2e7d6f719de3630fff62a51195",
+      "text_characters": 14300,
+      "published_pdf_sha256": "7b315677742887092ef885058fcf8c278ba26041045ef7b00129214e49ef2853"
+    },
+    {
+      "figure": "S14_readout",
+      "regenerated_path": "supplement/S14_readout.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          508.819
+        ]
+      ],
+      "text_sha256": "fa59007c8f7a0737cfc4a37e681a46eb5a2e7a66f006840491abcd0ffce2d6b6",
+      "text_characters": 14250,
+      "published_pdf_sha256": "f66e3d666e51e277c3ba2376ab2da0d16c636f1b8923498ad307bedc87208b33"
+    },
+    {
+      "figure": "S15_intervention",
+      "regenerated_path": "supplement/S15_intervention.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          510.236,
+          666.142
+        ]
+      ],
+      "text_sha256": "fa59007c8f7a0737cfc4a37e681a46eb5a2e7a66f006840491abcd0ffce2d6b6",
+      "text_characters": 14250,
+      "published_pdf_sha256": "27880d95609bba613a773fc7ac433fb1c501114f3fa26f46175e0061e6151ee3"
+    },
+    {
+      "figure": "S2",
+      "regenerated_path": "supplement/S2.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          728.229,
+          728.18
+        ]
+      ],
+      "text_sha256": "7a36126f12babee7a9fc7e40c74699dc6a5d1b76ca6611a280369cf34305fc37",
+      "text_characters": 632,
+      "published_pdf_sha256": "4003a78d29862c739ef53bfbc4d84bfffdf85dbe0e876fcb5a940e4500d6373b"
+    },
+    {
+      "figure": "S3",
+      "regenerated_path": "supplement/S3.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          728.4,
+          310.815
+        ]
+      ],
+      "text_sha256": "f656562f3d47f9be6a1fcf79e14db145166eac007cf7bbfab6693b7c7192ab68",
+      "text_characters": 238,
+      "published_pdf_sha256": "3e8302623b1cde4bf4a75b6da9cd61c93f3d6f52cb1dd308561e647ea2d7fc7e"
+    },
+    {
+      "figure": "S4",
+      "regenerated_path": "supplement/S4.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          656.4,
+          354.0
+        ]
+      ],
+      "text_sha256": "f5eeb5504ecd3f6c7587a40919514960a07f211bd5b75663d052fc5f3addd431",
+      "text_characters": 235,
+      "published_pdf_sha256": "24e3f686d6575b5d95f8427e300991c2b72018d34031ed60c741686e1843be14"
+    },
+    {
+      "figure": "S5",
+      "regenerated_path": "supplement/S5.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          656.388,
+          339.516
+        ]
+      ],
+      "text_sha256": "6b955d39c6a83012890de5a3c02b23116796a0e2e596ba20b727bd0ede06a3c0",
+      "text_characters": 247,
+      "published_pdf_sha256": "d4fcdc17d99e7fc00aa6e2420abbe0c0464dfeb3deb315f1ac510e784f9e6bce"
+    },
+    {
+      "figure": "S6",
+      "regenerated_path": "supplement/S6.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          728.4,
+          346.8
+        ]
+      ],
+      "text_sha256": "18a19e229db5ec6519d7bc7abd331c92cb125b19c7a7dddfce47ee54c6aeb0c1",
+      "text_characters": 350,
+      "published_pdf_sha256": "c38ba8759b8d81b68cd0316243876f1ee60947c4a6188adb54eef03b0d4dc370"
+    },
+    {
+      "figure": "S7",
+      "regenerated_path": "supplement/S7.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          741.119,
+          500.024
+        ]
+      ],
+      "text_sha256": "3f4437402547b5f8f1f12ab60d90729481610ae62b93f8f35a416d7583a11211",
+      "text_characters": 606,
+      "published_pdf_sha256": "59cd99ac957bdbed52d5dbefc0d3273539bdc8bab7b60561952ab4509c0a5183"
+    },
+    {
+      "figure": "S8",
+      "regenerated_path": "supplement/S8.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          741.116,
+          500.187
+        ]
+      ],
+      "text_sha256": "bc8d19f53726f477d7c930d236eb2f8aa0ae73b6d57b9f6dbcda65a00c5a94d4",
+      "text_characters": 606,
+      "published_pdf_sha256": "83d8c5f0f2c9d4993fa746648bd955c7a80c7b7b76141a0a7416611ed99982b4"
+    },
+    {
+      "figure": "S9",
+      "regenerated_path": "supplement/S9.pdf",
+      "pages": 1,
+      "dimensions": [
+        [
+          871.277,
+          447.6
+        ]
+      ],
+      "text_sha256": "9a53045bd5ce4d3c9d623ab1feebc5c8198d81f8704e247e89643041364aadec",
+      "text_characters": 556,
+      "published_pdf_sha256": "2bf373bdcef98266e221f87ae20872d4518545bba5d440a4fa4c7dba0e982a8e"
+    }
+  ],
+  "tables": {
+    "S1": {
+      "normalized_tex_sha256": "9b75eb8dd827e88ae810f5e567cccf17c53bddb02d1db51fd6239d6b9a14b3db"
+    },
+    "S2": {
+      "normalized_tex_sha256": "8c18ebf86548d5b60396e5b299f72009fd9565ef1d7caa5b6b7d7dfc35d0f134"
+    },
+    "S3": {
+      "normalized_tex_sha256": "54f1f5836b13429030f02571725bbdc400d0bb75c47e75e5eabb1aaa1f78dd78"
+    },
+    "S4": {
+      "normalized_tex_sha256": "edd92778be7762339bfa39ec0fa80bd73fb807880539088c64a8166e1f082f3c"
+    },
+    "S5": {
+      "normalized_tex_sha256": "05588c320ef1a9c6fc38d059d9422232c09bdee11c62b8720c38c6228460c3e5"
+    },
+    "S6": {
+      "normalized_tex_sha256": "ac4950416bc3466ab0139585e4cd50c9253d1ca4f9f76a3cf80b6ec149c6e015"
+    },
+    "S7": {
+      "normalized_tex_sha256": "d4dc4f734a74d8e53780703b016460a44953c5ac97c3f49666945d81fde35ffa"
+    },
+    "S8": {
+      "normalized_tex_sha256": "8c8263872930e3de6a10ec2bdfe7004360054e77d8107115b6eaa74eaf4b5a48"
+    },
+    "S9": {
+      "normalized_tex_sha256": "2896d6cf52346b3049a0a10998dbe1566e472e8744d5c2c5b02a331be27b4f91"
+    }
+  }
+}

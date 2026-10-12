@@ -1,0 +1,39 @@
+{
+  "python": "3.12.14",
+  "local_source_git_commit": "not inferable from supplied ZIP copies; record content hashes instead",
+  "files": {
+    "SPoSE-master\\plotting.py": "9debb110088ebb8a774619e4b8f6bfaa8095e0b01d931795e2da8681ac4976b6",
+    "SPoSE-master\\sampling.py": "dc1e00fb501ce749c18fd787316c3202e27371ddc09f08e0b585b459536aa231",
+    "SPoSE-master\\train.py": "364c24445396ad9c4f4a101981ecef7c4884d45479b6a4d3915e2c3b0857acdb",
+    "SPoSE-master\\tripletize.py": "c299ebba3c4bb2a8165d4188135b3b5678d8fe0bfe30856271a43baaa92344d9",
+    "SPoSE-master\\utils.py": "bf09af5b7b036847c876b53b357f7590c8153ef9b21b657e42221e4b42a20c91",
+    "SPoSE-master\\models\\model.py": "9502069330993a5aff0e558343981a3183a7cb13d214d46cf3c510b11dcd0613",
+    "gloss_tinynetworks-main\\fig3_model_comparison.m": "2c5a3b04790ed05e606a185319a29a6e0fb102f0e5644f7189c0c5133b659497",
+    "Human_Material_Perception_Benchmark\\scripts\\analyze_mllm_results.py": "98be103b19c84dd3124b5e3c1550285bc773272dca8ea1d49444dc798a422cc0",
+    "Human_Material_Perception_Benchmark\\scripts\\download_mllm_models.py": "6f5ffc39385f885f5e623bf71beec6ba70f6b3bbe2ab3c63dd2a826ab6ba2152",
+    "Human_Material_Perception_Benchmark\\scripts\\prepare_mllm_protocol.py": "99d84fe91e8fff360b4ab35cc416a6b10249672c8959945cd22bd5fcb28acda0",
+    "Human_Material_Perception_Benchmark\\scripts\\run_mllm_responses.py": "05604db2b462b96fa73ce2f83d84acd14f2422991a85438c7a9b68c4a38d6bdb",
+    "Human_Material_Perception_Benchmark\\scripts\\fit_gloss_spose.py": "0b3389b6e52063b18fe1e4e883739e66cf9185cf86ac6a57571bbdab9ed88e15",
+    "Human_Material_Perception_Benchmark\\scripts\\render_spose_dimensions.py": "151cdd2417dddbbcd72716edfa1a748b6dc831058f979b320a01fb033f4132c5",
+    "Human_Material_Perception_Benchmark\\scripts\\run_reference_spose.py": "ef6ef73a819e23497bfde837b94f939361a8bd835ec7f5d4a2193daf50e8b26d",
+    "Human_Material_Perception_Benchmark\\scripts\\spose_additional_checks.py": "c05d4d1e869fd457f09ad76b1b0f61ff492ba1ea4ede292494001bbb9ada0fda",
+    "Human_Material_Perception_Benchmark\\scripts\\summarize_spose_results.py": "f08d3cb5f4355ed6ad49aba615b869eeaa4f0fbe50d67e1737ff29fea8e09b82",
+    "Human_Material_Perception_Benchmark\\scripts\\internvl_backend.py": "9b3ee93aebe0a6222273869e2d303e2bd479e2ad0c3f195bed5e8cd87aad6a96",
+    "Human_Material_Perception_Benchmark\\scripts\\analyze_human_reference.py": "072fcbf672667027cd1875b6fa589b389d08e00c76c1618e7c3d2260451dc13c",
+    "Human_Material_Perception_Benchmark\\scripts\\run_gloss_pipeline.py": "288fb62d3ee54c1c7b7a577dfd0927a6405d8b64578cbd77f03ec8337af539b3",
+    "Human_Material_Perception_Benchmark\\scripts\\prepare_input_control.py": "d6b029e28fa602a6fe8db889df3885625b53f5c7a4fdd6b4bc1e6cef831e094f",
+    "Human_Material_Perception_Benchmark\\scripts\\verify_protocol_assets.py": "f1b12466e338c1220b34b821489f82606668bc94e5bc493d94d0b9b922fa9ff0",
+    "Human_Material_Perception_Benchmark\\scripts\\analyze_choice_robustness.py": "a77ec524f64edfc19a3b5a9f3593192793ef1b330ad5d9b69bf352194bfe93da",
+    "Human_Material_Perception_Benchmark\\scripts\\analyze_residual_controls.py": "dce8383dfc36dfdbe1840cdb5ca55cc795f9a6ba3792d5c19280194af2a49ac2",
+    "Human_Material_Perception_Benchmark\\scripts\\check_experiment_semantics.py": "47b3ecd662a63665eccf733bfcc98cd5778df5ed00ae104bd8d6a721317add8a",
+    "Human_Material_Perception_Benchmark\\scripts\\check_structured_bootstrap.py": "26788e2bb74fcc3ea5d5dda51712e0989158d087548f06e5aa46ed4265b11bb3",
+    "Human_Material_Perception_Benchmark\\scripts\\package_gloss_results.py": "25c8bf91eaff76666644b30803757619bb057fb90af8592be5bd29044bd6c4ed",
+    "Human_Material_Perception_Benchmark\\scripts\\audit_author_baselines.py": "f020a2948dc546d3eb35bb32c02f593b59c9bddf13ddb43c0e520454d6a104a0"
+  },
+  "model_pins": {
+    "clip_b32": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "dinov2_small": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "internvl35_4b": "481f6e32467eab4e922ccd7fd6cf420441a62331",
+    "qwen25vl3b": "66285546d2b821cf421d4f5eb2576359d3770cd3"
+  }
+}

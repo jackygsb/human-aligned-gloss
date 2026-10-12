@@ -1,0 +1,200 @@
+[
+  {
+    "figure": "Fig1",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 2199,
+    "regenerated_text_characters": 2199
+  },
+  {
+    "figure": "Fig2",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 2310,
+    "regenerated_text_characters": 2310
+  },
+  {
+    "figure": "Fig3",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 2224,
+    "regenerated_text_characters": 2224
+  },
+  {
+    "figure": "Fig4",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 2384,
+    "regenerated_text_characters": 2384
+  },
+  {
+    "figure": "Fig5",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 2549,
+    "regenerated_text_characters": 2549
+  },
+  {
+    "figure": "Fig6",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 1891,
+    "regenerated_text_characters": 1891
+  },
+  {
+    "figure": "S1",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 213,
+    "regenerated_text_characters": 213
+  },
+  {
+    "figure": "S10",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 1299,
+    "regenerated_text_characters": 1299
+  },
+  {
+    "figure": "S11_methods",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14278,
+    "regenerated_text_characters": 14278
+  },
+  {
+    "figure": "S12_controller",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14252,
+    "regenerated_text_characters": 14252
+  },
+  {
+    "figure": "S12_records",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14252,
+    "regenerated_text_characters": 14252
+  },
+  {
+    "figure": "S13_geometry",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14300,
+    "regenerated_text_characters": 14300
+  },
+  {
+    "figure": "S14_readout",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14250,
+    "regenerated_text_characters": 14250
+  },
+  {
+    "figure": "S15_intervention",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 14250,
+    "regenerated_text_characters": 14250
+  },
+  {
+    "figure": "S2",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 632,
+    "regenerated_text_characters": 632
+  },
+  {
+    "figure": "S3",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 238,
+    "regenerated_text_characters": 238
+  },
+  {
+    "figure": "S4",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 235,
+    "regenerated_text_characters": 235
+  },
+  {
+    "figure": "S5",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 247,
+    "regenerated_text_characters": 247
+  },
+  {
+    "figure": "S6",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 350,
+    "regenerated_text_characters": 350
+  },
+  {
+    "figure": "S7",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 606,
+    "regenerated_text_characters": 606
+  },
+  {
+    "figure": "S8",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 606,
+    "regenerated_text_characters": 606
+  },
+  {
+    "figure": "S9",
+    "pages": 1,
+    "matches_page_count": true,
+    "matches_dimensions": true,
+    "matches_extracted_text": true,
+    "published_text_characters": 556,
+    "regenerated_text_characters": 556
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "created": 1790576080.777166,
+  "primary_evaluation": "3849 matching-heldout images; 39 development images excluded from head fitting and scoring",
+  "outer_splits": "Existing 12 shape folds and 12 illumination folds; each outer tiny checkpoint only trained on other 33 groups",
+  "tiny": "Independent single-kernel control, lr .01, terminal epoch30, two-seed mean; not exact author network",
+  "calibration": "Fixed ordinary least squares with intercept, predictors standardized on outer training rows. Tiny training predictions from the SAME outer checkpoint. They are in-sample to the tiny learner; no nested stacking claim. Outer test labels never used for base learner or calibration.",
+  "comparisons": [
+    "tiny linear vs tiny linear + InternVL",
+    "tiny cubic vs tiny cubic + InternVL",
+    "physical/color/viewpoint controls + tiny cubic vs same + InternVL",
+    "InternVL alone calibrated on same outer train"
+  ],
+  "controls": "50 physical c categories, categorical viewpoint and chroma, sin/cos hue harmonics 1 and 2; no shape or illumination identity predictors",
+  "primary_metrics": [
+    "out-of-fold R2",
+    "MSE",
+    "MAE",
+    "Spearman"
+  ],
+  "uncertainty": "4000 paired condition-cluster bootstrap replicates for loss reduction, separate shape and illumination clustering plus two-way crossed weighting. Fixed predictions; not full retraining uncertainty.",
+  "author_supplement": "Released author predictions used only for descriptive residual correlations, unknown exact fold membership.",
+  "inference": "No new InternVL collection, no new tiny training, only frozen tiny checkpoint inference",
+  "source_hashes": {
+    "scripts\\analyze_incremental_internvl.py": "46457a3802f7f8befc21791a13fb1cf9ddefd91e661a1fb03629ed004bedd1e8",
+    "scripts\\train_tiny_control.py": "472d8f72ca335055eb80fc34720ad78170ee81afaeced544050b315e3817608d",
+    "protocols\\gloss_group_folds.csv": "e4da9c6627e67a28958334727c2e6aa1a00464c65bed314299f5829286510f42",
+    "robustness_v2\\tiny_paper_lr\\all_predictions.csv": "ee7514fafe44788a832050184b25a8e029a8cd82508fe9bcde9313378ed6c570",
+    "mllm_material\\matching_full_v1\\image_summary.csv": "66b5ae4bb5b49d196b89b157504545efb0424ebdbbf4d954d09d3a9e9e75e6d7"
+  }
+}

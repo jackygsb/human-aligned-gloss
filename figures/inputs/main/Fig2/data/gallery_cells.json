@@ -1,0 +1,101 @@
+[
+  {
+    "human_bin": 0,
+    "physical_bin": 0,
+    "n": 800,
+    "intern_rank_median": 28.189140036373082,
+    "qwen_rank_median": 25.279293322941022,
+    "image_ids": [
+      "morimoto_2671",
+      "morimoto_1661"
+    ]
+  },
+  {
+    "human_bin": 0,
+    "physical_bin": 1,
+    "n": 320,
+    "intern_rank_median": 28.189140036373082,
+    "qwen_rank_median": 21.434138737334372,
+    "image_ids": [
+      "morimoto_0259",
+      "morimoto_3727"
+    ]
+  },
+  {
+    "human_bin": 0,
+    "physical_bin": 2,
+    "n": 166,
+    "intern_rank_median": 31.034034814237465,
+    "qwen_rank_median": 21.434138737334372,
+    "image_ids": [
+      "morimoto_0386",
+      "morimoto_0326"
+    ]
+  },
+  {
+    "human_bin": 1,
+    "physical_bin": 0,
+    "n": 330,
+    "intern_rank_median": 40.01039230969083,
+    "qwen_rank_median": 49.37646141855027,
+    "image_ids": [
+      "morimoto_0607",
+      "morimoto_3078"
+    ]
+  },
+  {
+    "human_bin": 1,
+    "physical_bin": 1,
+    "n": 560,
+    "intern_rank_median": 50.44816835541699,
+    "qwen_rank_median": 52.14341387373344,
+    "image_ids": [
+      "morimoto_1454",
+      "morimoto_3275"
+    ]
+  },
+  {
+    "human_bin": 1,
+    "physical_bin": 2,
+    "n": 393,
+    "intern_rank_median": 51.402961808261885,
+    "qwen_rank_median": 53.27357755261107,
+    "image_ids": [
+      "morimoto_0890",
+      "morimoto_1616"
+    ]
+  },
+  {
+    "human_bin": 2,
+    "physical_bin": 0,
+    "n": 117,
+    "intern_rank_median": 61.61340607950117,
+    "qwen_rank_median": 85.58067030397505,
+    "image_ids": [
+      "morimoto_1582",
+      "morimoto_0095"
+    ]
+  },
+  {
+    "human_bin": 2,
+    "physical_bin": 1,
+    "n": 481,
+    "intern_rank_median": 78.18914003637309,
+    "qwen_rank_median": 85.58067030397505,
+    "image_ids": [
+      "morimoto_0875",
+      "morimoto_0154"
+    ]
+  },
+  {
+    "human_bin": 2,
+    "physical_bin": 2,
+    "n": 682,
+    "intern_rank_median": 78.86464016627696,
+    "qwen_rank_median": 85.58067030397505,
+    "image_ids": [
+      "morimoto_1819",
+      "morimoto_2228"
+    ]
+  }
+]

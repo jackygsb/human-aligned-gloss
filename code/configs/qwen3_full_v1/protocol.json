@@ -1,0 +1,39 @@
+{
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "seed": 20260928,
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 64
+  },
+  "matching_prompt": "Compare the apparent surface gloss of the two objects. Which object looks glossier? Judge gloss, not overall brightness. Answer exactly A if Image A looks glossier, B if Image B looks glossier, or SAME if their surface gloss looks indistinguishable.",
+  "matching_system": "You are a visual observer performing a surface-gloss matching task. Follow the response format exactly.",
+  "prompts": {
+    "system": "Make a visual judgment using the supplied image. Follow the response format exactly.",
+    "T1": "Rate the apparent glossiness of the main object in this image.\nGlossiness means how matte or shiny the surface looks.\nUse an integer from 0 to 100: 0 = not at all glossy; 100 = extremely glossy.\nJudge the visible appearance, not the material name or its physical reflectance.\nReturn only {\"glossiness\": <integer>, \"status\": \"ok\"}.\nIf the image is unavailable or the main object cannot be identified, return only\n{\"glossiness\": null, \"status\": \"unrateable\"}.",
+    "T2": "Compare the apparent glossiness of the main objects in Image A and Image B.\nWhich object's surface looks glossier? Judge visible matte versus shiny appearance,\nnot the object category or the material's physical properties.\nChoose A, B, or tie if they appear equally glossy.\nReturn only a JSON object with keys \"choice\" and \"status\".\nThe value of \"choice\" must be \"A\", \"B\", or \"tie\"; \"status\" must be \"ok\".\nIf an image is unavailable or its main object cannot be identified, return only\n{\"choice\": null, \"status\": \"unrateable\"}."
+  },
+  "pilot_image_ids": [
+    "morimoto_1889",
+    "morimoto_1309",
+    "morimoto_0218",
+    "morimoto_1490",
+    "morimoto_2751",
+    "morimoto_2974",
+    "morimoto_2399",
+    "morimoto_1394",
+    "morimoto_2307",
+    "morimoto_1992",
+    "morimoto_2206",
+    "morimoto_1380"
+  ],
+  "selection": "All original stimuli/pairs/starts; flag prior pilot and original matching development images; no performance-dependent stopping",
+  "matching": "Same 1..52 bisection, maximum7 decisions, final presented index conversion; A=test B=reference",
+  "catch_scope": "Main three task responses only; original InternVL practice/catch are not rerun",
+  "presentation": "One or two images per fresh context; native Qwen preprocessing; bf16 SDPA",
+  "source_hashes": {
+    "mllm_material\\manifests\\requests.jsonl": "5172dc5e6deb22f3cd0ce2fd503b51c42d40823dbc5aa1fc34db23daa3a5c80e",
+    "mllm_material\\matching_full_v1\\schedule.json": "8d77a4ccd2d4833bf040339a42236d75a5fe3bff3ae8f2466c873e13f79dc18b",
+    "mllm_material\\protocol\\prompts.json": "39f03ba7e18687d8a30915bcc3aa1c36bbb2f9874b3f02bd6bc2916c7032a104",
+    "models\\qwen3vl4b\\manifest.json": "ab1aaa3f6604028984bbf783786b270b4b5b3841b74199573093c19c60ab86f4"
+  }
+}

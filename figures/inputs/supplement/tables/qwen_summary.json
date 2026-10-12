@@ -1,0 +1,186 @@
+{
+  "single_images": 3888,
+  "pair_responses": 4000,
+  "complete_pairs": 2000,
+  "matching_trials": 7776,
+  "paired_images": 3888,
+  "human_agreement": [
+    {
+      "cohort": "all",
+      "task": "single_score",
+      "n": 3888,
+      "human_spearman": 0.7287227892634329,
+      "human_pearson": 0.7251768594076657
+    },
+    {
+      "cohort": "all",
+      "task": "model_c",
+      "n": 3888,
+      "human_spearman": 0.6812934267859209,
+      "human_pearson": 0.6773701041866159
+    },
+    {
+      "cohort": "matching_heldout",
+      "task": "single_score",
+      "n": 3849,
+      "human_spearman": 0.7271650290257055,
+      "human_pearson": 0.7241028621707244
+    },
+    {
+      "cohort": "matching_heldout",
+      "task": "model_c",
+      "n": 3849,
+      "human_spearman": 0.680402561470958,
+      "human_pearson": 0.6764477646533444
+    },
+    {
+      "cohort": "new_validation",
+      "task": "single_score",
+      "n": 3837,
+      "human_spearman": 0.7269377988378796,
+      "human_pearson": 0.7240684524965944
+    },
+    {
+      "cohort": "new_validation",
+      "task": "model_c",
+      "n": 3837,
+      "human_spearman": 0.6798418873486568,
+      "human_pearson": 0.6760338020379774
+    }
+  ],
+  "pair_metrics": [
+    {
+      "stratum": "all",
+      "predictor": "delta_single",
+      "n": 2000,
+      "agreement": 0.8035,
+      "tie_fraction": 0.236
+    },
+    {
+      "stratum": "all",
+      "predictor": "delta_matching",
+      "n": 2000,
+      "agreement": 0.85075,
+      "tie_fraction": 0.1095
+    },
+    {
+      "stratum": "all",
+      "predictor": "delta_human",
+      "n": 2000,
+      "agreement": 0.72925,
+      "tie_fraction": 0.0
+    },
+    {
+      "stratum": "all",
+      "predictor": "delta_physical",
+      "n": 2000,
+      "agreement": 0.43175,
+      "tie_fraction": 0.0105
+    },
+    {
+      "stratum": "discordant",
+      "predictor": "delta_single",
+      "n": 1000,
+      "agreement": 0.806,
+      "tie_fraction": 0.241
+    },
+    {
+      "stratum": "discordant",
+      "predictor": "delta_matching",
+      "n": 1000,
+      "agreement": 0.848,
+      "tie_fraction": 0.119
+    },
+    {
+      "stratum": "discordant",
+      "predictor": "delta_human",
+      "n": 1000,
+      "agreement": 0.7525,
+      "tie_fraction": 0.0
+    },
+    {
+      "stratum": "discordant",
+      "predictor": "delta_physical",
+      "n": 1000,
+      "agreement": 0.2475,
+      "tie_fraction": 0.0
+    },
+    {
+      "stratum": "random",
+      "predictor": "delta_single",
+      "n": 1000,
+      "agreement": 0.801,
+      "tie_fraction": 0.231
+    },
+    {
+      "stratum": "random",
+      "predictor": "delta_matching",
+      "n": 1000,
+      "agreement": 0.8535,
+      "tie_fraction": 0.1
+    },
+    {
+      "stratum": "random",
+      "predictor": "delta_human",
+      "n": 1000,
+      "agreement": 0.706,
+      "tie_fraction": 0.0
+    },
+    {
+      "stratum": "random",
+      "predictor": "delta_physical",
+      "n": 1000,
+      "agreement": 0.616,
+      "tie_fraction": 0.021
+    }
+  ],
+  "cross_task": [
+    {
+      "split": "shape",
+      "source": "single_score",
+      "target": "model_c",
+      "r2": 0.7757815855391467,
+      "spearman": 0.7976996356607522
+    },
+    {
+      "split": "shape",
+      "source": "model_c",
+      "target": "single_score",
+      "r2": 0.7489704405344222,
+      "spearman": 0.8448431142714494
+    },
+    {
+      "split": "illumination",
+      "source": "single_score",
+      "target": "model_c",
+      "r2": 0.777807882830054,
+      "spearman": 0.8064419662443969
+    },
+    {
+      "split": "illumination",
+      "source": "model_c",
+      "target": "single_score",
+      "r2": 0.7504730383334072,
+      "spearman": 0.8475518257801883
+    }
+  ],
+  "effects": [
+    {
+      "factor": "shape_id",
+      "spearman": 0.6712998712998713,
+      "cluster_ci95": [
+        0.6247104247104248,
+        0.7274131274131276
+      ]
+    },
+    {
+      "factor": "illumination_id",
+      "spearman": 0.7994851994851995,
+      "cluster_ci95": [
+        0.7320463320463321,
+        0.8373230373230374
+      ]
+    }
+  ],
+  "scope": "Same point-estimate protocols as InternVL. Confidence intervals and publication layout require final review; pilot and new validation cohorts separated."
+}

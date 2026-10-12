@@ -1,0 +1,12 @@
+{
+  "model": "internvl35_4b",
+  "phase": "engineering",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.1",
+  "python": "3.12.14",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "precision": "bfloat16",
+  "quantization": null,
+  "model_manifest_sha256": "41e6687557a336c948edc4f9f05a0eda6bd64868275e069435d34dd2cec0dbc8",
+  "prompt_sha256": "39f03ba7e18687d8a30915bcc3aa1c36bbb2f9874b3f02bd6bc2916c7032a104"
+}

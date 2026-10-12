@@ -1,0 +1,38 @@
+{
+  "directions": [
+    {
+      "model": "InternVL",
+      "unit_direction_norm": 1.0,
+      "reference_scale": 2.5287260444877804,
+      "direction_reconstruction_max_error": 2.7755575615628914e-17
+    },
+    {
+      "model": "Qwen3",
+      "unit_direction_norm": 0.9999999999999999,
+      "reference_scale": 3.3365760352610625,
+      "direction_reconstruction_max_error": 1.3877787807814457e-17
+    }
+  ],
+  "effects": [
+    {
+      "model": "InternVL",
+      "negative_pp": -9.373672811038979,
+      "positive_pp": 9.91927872983388,
+      "swing_pp": 19.29295154087286,
+      "positive_ci_pp": [
+        8.43613152480786,
+        11.35604553116289
+      ]
+    },
+    {
+      "model": "Qwen3",
+      "negative_pp": -9.869949104632509,
+      "positive_pp": 10.24856138138274,
+      "swing_pp": 20.11851048601525,
+      "positive_ci_pp": [
+        6.919310775847549,
+        13.639434796784089
+      ]
+    }
+  ]
+}

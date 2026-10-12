@@ -1,0 +1,50 @@
+[
+  {
+    "original_relative_to_workspace": "Serrano_SIGG2021_PerceptualRatings.xlsx",
+    "exists": true,
+    "bytes": 22553247,
+    "sha256": "af744c7a07cb08b3095a0f856a61c6d6c683ae79f18ef6143faa2fef6d17612e",
+    "source_url": "http://mig.mpi-inf.mpg.de/",
+    "note": "Third-party summary ratings; separate uncompleted extension. Explicit data redistribution license not verified."
+  },
+  {
+    "original_relative_to_workspace": "material-illumination-geometry-main/LICENSE",
+    "exists": true,
+    "bytes": 18092,
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "source_url": "https://github.com/Hans1984/material-illumination-geometry",
+    "note": "GPL-2.0 repository code license, not assumed to license external rating workbook."
+  },
+  {
+    "original_relative_to_workspace": "Human_Material_Perception_Benchmark/mllm_material/reference_reconstruction_v3/assets/doge2.hdr",
+    "exists": true,
+    "bytes": 1166608,
+    "sha256": "1201ac8336c4405c3066cc7b3aa7e8128e889f41e4eca25108a49b1611a3b1f9",
+    "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Environments/low_resolution_hdrs/doge2.hdr",
+    "note": "External HDR panorama omitted; get original image from linked source. Origin: USC ICT high-resolution probes."
+  },
+  {
+    "original_relative_to_workspace": "gloss_tinynetworks-main/LICENSE",
+    "exists": true,
+    "bytes": 1072,
+    "sha256": "ed28f8499e137e21b36414cd22dea40a09bea8c9a84c420c1f1cd61227cfafa4",
+    "source_url": "https://github.com/takuma929/gloss_tinynetworks",
+    "note": "MIT: author-provided stimulus/metadata copies carry this license."
+  },
+  {
+    "original_relative_to_workspace": "gloss_tinynetworks-main/data/onlineData.mat",
+    "exists": true,
+    "bytes": 1038504,
+    "sha256": "1f59ae3a63cdd8d873222cb6d2637cb3a7346cf17a4eb6263d2cd0f50766ed15",
+    "source_url": "https://github.com/takuma929/gloss_tinynetworks",
+    "note": "Original human records remain obtainable from upstream. Package includes pseudonymized trials and image means."
+  },
+  {
+    "original_relative_to_workspace": "gloss_tinynetworks-main/data/humanANDgt_Pellacini_c.mat",
+    "exists": true,
+    "bytes": 52760,
+    "sha256": "e3c8d82c0109b979f46a0e20806633678118c2118e0f159f9d3c3ac8c38c4555",
+    "source_url": "https://github.com/takuma929/gloss_tinynetworks",
+    "note": "Published human/physical labels; derived labels included."
+  }
+]

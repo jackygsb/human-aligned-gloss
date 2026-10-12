@@ -1,0 +1,110 @@
+[
+  {
+    "path": "mllm_material\\qwen3_full_v1\\joint_model_predictions.csv",
+    "sha256": "d50e6b49de241e460fab5f18c06a87cf79324694b524258e244498a152480b1f"
+  },
+  {
+    "path": "mllm_material\\paper_figures_v1\\source_data\\image_level_all3888.csv",
+    "sha256": "7164b8ad7bd996dfe83428cc4c90277307122f7fac265942cfc827cb0aa269b4"
+  },
+  {
+    "path": "mllm_material\\paper_figures_v1\\source_data\\pair_cross_task_predictions.csv",
+    "sha256": "90e0ae42fb011ee55bd379aca999aa58f73c37d3ef8fb02255bf934ac4a015d2"
+  },
+  {
+    "path": "mllm_material\\qwen3_full_v1\\pair_predictions.csv",
+    "sha256": "6a3dbda1e1b045e0c0f425284f1c1a689bc37cc8a1f2d64823c2dc8c01389d79"
+  },
+  {
+    "path": "mllm_material\\nmi_revision_v8\\source\\tables\\v8_agreement_ci.csv",
+    "sha256": "19cbe64f28eec5fc69997d7e9efdde9bc72e42779af7c4a5702ce4fc676176de"
+  },
+  {
+    "path": "mllm_material\\nmi_revision_v8\\source\\tables\\v8_agreement_contrasts.csv",
+    "sha256": "b285c12a05a98bb0b56a6ce88362bf1f6168eb900e278eabbd84e9d4c9a3feac"
+  },
+  {
+    "path": "mllm_material\\nmi_revision_v8\\source\\tables\\v8_pair_ci.csv",
+    "sha256": "4ab631225c0a5b25713516720cad72a0834e575b7643be3ea1614a6ea6fa3940"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img875.png",
+    "sha256": "2243e937410343901a049a7dd9a1c0c94f79d0ba655242ff3c1574cf072d7daa"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img3275.png",
+    "sha256": "b8dade51df2e28d5295fe38eabbd99ae4c111fc74a4bf9603d522662ee3aa774"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img3727.png",
+    "sha256": "95891513d3a0ae8a9b86a40d8a502b37c2adff0f23cbacd186ec65b56cff377f"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img1819.png",
+    "sha256": "b94c662185c991d7ed8386c119054fe9b9a510fda70a3caa23ed3eca22bac745"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img95.png",
+    "sha256": "7ccdd30efdb06e4254024a060bba67295642f78b17d0ef327ff0ba8ffd09e134"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img2228.png",
+    "sha256": "d7f23c1cbb79518ea86ba6bb2daf8ad4fa2b2009d8770016ab4f0fd7e8b24a56"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img890.png",
+    "sha256": "3ba3860b77849cd9ed89f6e0e1b23632a945ca1f7f114c80e3ac47dcc475ea9f"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img1582.png",
+    "sha256": "ed266bbf1f86fa986dbb88a0aabf53864db0f1fb9ced2f77f0ace51987eb9146"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img607.png",
+    "sha256": "f45ba8c0cb1e6a7a17253d4ba2552abbd33ec30e669226facff4062fa660a0d6"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img1454.png",
+    "sha256": "0af4faff7397eff4ac47dc84d450ad62515cedb0bedbf086833e4554cb470aad"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img3078.png",
+    "sha256": "29db682a9e871283fb748a8082bf3c9a03c5486e94ad58b2046bda69b2186bc7"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img2671.png",
+    "sha256": "34c6aec08f3467ea577c0f97f26ba468b2f481c609069022359480f80e2a1688"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img259.png",
+    "sha256": "25f893bfb0b85512228cda1b62839936c237eaa3911eec996b684fbbbadbd239"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img326.png",
+    "sha256": "0f671903eff9f304f9a6a8614c9e012830907f7d5f4af7cff6bb9e70ff3378a3"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img2858.png",
+    "sha256": "a17a505f5caefe96b8e0399d25ba369a27335fa0cea0fcb76f71800a64841e61"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img1616.png",
+    "sha256": "dac63caa1fdbc471657fd3c7f5ddf8ac6feb5c8959ec152199eeface3f70ce2d"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img154.png",
+    "sha256": "72a47148aba426e3db81fb7538056a5ca1e7799982ea10d21c3ab17267012375"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img1661.png",
+    "sha256": "bcab7e883e7484bff5b5df10fe359b2035e7ac57c82e60dcf49a554b538522e4"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img3859.png",
+    "sha256": "38510b01046fa8d8cbf023d009ad64c9cbb752eb29dde6e76d9ecd05dd2e14cf"
+  },
+  {
+    "path": "images_processed\\512x512\\gloss\\img386.png",
+    "sha256": "2598417ff111bb1bf36cfaf05da3f3f29aac5dcbb5640983686f6500e6af5b74"
+  }
+]

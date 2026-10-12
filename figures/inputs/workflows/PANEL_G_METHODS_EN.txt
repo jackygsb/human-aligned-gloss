@@ -1,0 +1,17 @@
+PANEL G: FROZEN INTERNAL STATES AND HUMAN-JUDGMENT READOUT
+
+Editable standalone panel: Figure1_g_Internal_Readout_EN.svg.
+
+Forward computation: a test image and the original single-image gloss prompt are processed with frozen weights. Selected visual encoder blocks yield visual-token features; the bridge converts visual features into language-model-width image tokens. InternVL uses mlp1 after its native visual preprocessing; Qwen3 uses visual.merger and also injects DeepStack features. Language blocks process the visual tokens jointly with text. States are recorded before the first answer token is generated.
+
+Extraction: vision blocks 6,12,18,24 are mean-pooled over tokens (1,024 coordinates); the bridge is mean-pooled (2,560 coordinates); language blocks 9,18,27,36 contribute the final prompt-token vector (2,560 coordinates). The depicted single-image bridge arrays contain 256 spatial tokens, each of width 2,560, arranged as a 16 x 16 grid. This is the observed native grid for the displayed archived example, not a universal token count for all image settings. Qwen3 DeepStack mean vectors are separately retained in the original archive and are not shown in the nine-stage mini-curve.
+
+Examples: morimoto_0095 is the same input for both models. Each colored vector strip displays its first 32 coordinates, scaled by that displayed strip's maximum absolute value; positive/negative values use red/blue. These are vector components, not spatial activation maps. Existing records do not retain full spatial arrays at every vision or language layer; no such maps have been reconstructed or fabricated. Full spatial arrays are available at the bridge.
+
+Candidate map: fit the multivariate slope of the 52 reference-image bridge means against reference c and normalize it to a direction d. Project each bridge token h(p) onto d. The overlaid spatial responses use separate model-specific color scales. This direction uses reference c, not human test-image ratings; it is a gloss-related candidate direction, not a learned ridge readout coefficient, attention map, filter kernel or proof of a selective gloss neuron. The functional intervention using this direction remains in panel h.
+
+Readout: for each layer separately, use the archived label-free seeded Gaussian projection to 128 dimensions, then training-only feature standardization and ridge regression with human matching judgments as targets. Ridge strength is chosen from 1,10,100 on a fixed group-disjoint inner validation subset. Outer 12-fold splits hold out shape or illumination groups. The MLLM parameters are unchanged. This is a supervised analysis of fixed features; it is distinct from the original free-generation behavioral responses.
+
+The numerical example shows saved bridge-readout predictions for morimoto_0095 with its shape group held out. Human target: 0.0755648693; InternVL prediction: 0.0715023949; Qwen3 prediction: 0.0575502667. The small stage curve plots archived human-target held-out-shape R2 over 3,888 images. Vision/bridge mean pooling differs from language final-token extraction, so stage differences should be described as readout performance under these extraction choices.
+
+Rebuild: the portable plotting script reads g_internal_feature_examples.npz and g_readout_examples.csv together with bundled assets. g_method_sources.json identifies the original source-file hashes. Original extraction/readout scripts are retained under provenance_scripts; rerunning the original experiments requires the complete project and model environment.

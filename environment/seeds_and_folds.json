@@ -1,0 +1,252 @@
+[
+  {
+    "script": "analyze_behavioral_spaces_v1.py",
+    "line": 68,
+    "code": "rng=np.random.default_rng(SEED); cubes={};cvrows=[];predrows=[];selection=[];spectra=[];recon={};dimrows=[];fullspaces={}"
+  },
+  {
+    "script": "analyze_incremental_internvl.py",
+    "line": 56,
+    "code": "pred=np.asarray(pred);prior=old[(old.split==factor)&(old.seed==seed)&(old.fold==fold)].set_index('image_id')"
+  },
+  {
+    "script": "analyze_incremental_internvl.py",
+    "line": 59,
+    "code": "auditrows.append(dict(seed=seed,checkpoint_sha256=sha(ckpt),split_audit_sha256=sha(ap),max_difference_existing_oof=maxerr,train_n=len(tr),test_n=len(te)))"
+  },
+  {
+    "script": "analyze_incremental_internvl.py",
+    "line": 94,
+    "code": "scores=[];gains=[];rng=np.random.default_rng(20260928)"
+  },
+  {
+    "script": "analyze_matching_full.py",
+    "line": 33,
+    "code": "stats={};rng=np.random.default_rng(2026092902)"
+  },
+  {
+    "script": "analyze_matching_pilot.py",
+    "line": 29,
+    "code": "rng=np.random.default_rng(20260928);boots=[]"
+  },
+  {
+    "script": "analyze_matching_pilot_v2.py",
+    "line": 29,
+    "code": "rng=np.random.default_rng(20260928);boots=[]"
+  },
+  {
+    "script": "analyze_mechanism_v1.py",
+    "line": 24,
+    "code": "shutil.copy2(__file__,O/'code'/Path(__file__).name);d=pd.read_csv(O/'stimuli.csv');plan=read(O/'plan.json');N=nuisance(d);rng=np.random.default_rng(plan['seed']);stats=[];rawpred=[];dirstats=[];ivs=[];ms=[];featuremaps={}"
+  },
+  {
+    "script": "analyze_mechanism_v1.py",
+    "line": 40,
+    "code": "seed=plan['seed']+int(hashlib.sha256((name+key).encode()).hexdigest()[:6],16);prng=np.random.default_rng(seed);projection=prng.normal(size=(x.shape[1],128))/np.sqrt(128);np.save(out/f'projection_{key}.npy',projection.astype('float32'));x=x@projection"
+  },
+  {
+    "script": "analyze_perception.py",
+    "line": 79,
+    "code": "rng=np.random.default_rng(SEED)"
+  },
+  {
+    "script": "analyze_perception.py",
+    "line": 91,
+    "code": "perm=np.random.default_rng(SEED+(name=='illumination')).permutation(sorted(g[col].unique()))"
+  },
+  {
+    "script": "analyze_perception.py",
+    "line": 97,
+    "code": "result=dict(seed=SEED,material_images=len(a),attributes=ATTRS,pca_explained_ratio=var.tolist(),"
+  },
+  {
+    "script": "analyze_qwen3_full.py",
+    "line": 66,
+    "code": "for tr,te in StratifiedKFold(5,shuffle=True,random_state=20260928).split(p,p.stratum):"
+  },
+  {
+    "script": "analyze_qwen3_full.py",
+    "line": 76,
+    "code": "rng=np.random.default_rng(20260928);pinv=np.linalg.pinv(X);residual=Y-X@beta"
+  },
+  {
+    "script": "analyze_shared_condition_effects.py",
+    "line": 15,
+    "code": "rng=np.random.default_rng(2026092807)"
+  },
+  {
+    "script": "analyze_subscription_pilot12.py",
+    "line": 12,
+    "code": "rng=np.random.default_rng(20260928)"
+  },
+  {
+    "script": "build_interim_review.py",
+    "line": 36,
+    "code": "sample=pool.sample(n=min(6,len(pool)),random_state=20260927)"
+  },
+  {
+    "script": "build_paper_figures_v1.py",
+    "line": 68,
+    "code": "cv=list(StratifiedKFold(n_splits=5,shuffle=True,random_state=20260928).split(p,p.stratum))"
+  },
+  {
+    "script": "chatgpt_web_runner.py",
+    "line": 40,
+    "code": "write(ROOT/'protocol.json',dict(created_at=stamp(),model='ChatGPT web Latest / Pro (UI labels; backend ID unverified)',n_images=72,repetitions=2,batch_size=4,seed=2026092819,image_ids=ids,"
+  },
+  {
+    "script": "draw_figure6_english.py",
+    "line": 56,
+    "code": "rng=np.random.default_rng(6)"
+  },
+  {
+    "script": "evaluate_pilot.py",
+    "line": 11,
+    "code": "from sklearn.model_selection import GroupKFold"
+  },
+  {
+    "script": "evaluate_pilot.py",
+    "line": 27,
+    "code": "rng=np.random.default_rng(12);x=rng.normal(size=(90,9));x[:,8]=1;y=rng.normal(size=90);t=rng.normal(size=(15,9));t[:,8]=1"
+  },
+  {
+    "script": "evaluate_pilot.py",
+    "line": 76,
+    "code": "for itr,iva in GroupKFold(n_splits=3).split(x[tr],y[tr],groups[tr]):"
+  },
+  {
+    "script": "evaluate_robustness.py",
+    "line": 6,
+    "code": "from sklearn.model_selection import GroupKFold"
+  },
+  {
+    "script": "evaluate_robustness.py",
+    "line": 44,
+    "code": "for itr,iva in GroupKFold(3).split(train,groups=group[train]):"
+  },
+  {
+    "script": "finalize_matching_paper_pilot.py",
+    "line": 19,
+    "code": "rng=np.random.default_rng(47);ci=[]"
+  },
+  {
+    "script": "finalize_mechanisms_v1.py",
+    "line": 17,
+    "code": "iv=pd.read_csv(O/'tables/interventions.csv').merge(d[['image_id','shape_id']],on='image_id');rng=np.random.default_rng(20260929);rows=[]"
+  },
+  {
+    "script": "finalize_paper_package_v1.py",
+    "line": 9,
+    "code": "rng=np.random.default_rng(20260928);records=[]"
+  },
+  {
+    "script": "fit_gloss_spose.py",
+    "line": 50,
+    "code": "metrics=dict(dim=dim,lam=lam,seed=seed,best_epoch=bestepoch,active_dimensions=int((bestw.max(0)>.1).sum()),negative_weight_fraction=float((bestw<0).mean()),torch_version=torch.__version__,device=device)"
+  },
+  {
+    "script": "prepare_figure2_english.py",
+    "line": 27,
+    "code": "point=adjusted(np.ones(len(d)));rng=np.random.default_rng(plan['seed']);boot=[]"
+  },
+  {
+    "script": "prepare_figure5_english.py",
+    "line": 16,
+    "code": "y=d.human_c.to_numpy();rng=np.random.default_rng(20261004);cs=rng.multinomial(36,np.ones(36)/36,2000);cl=rng.multinomial(36,np.ones(36)/36,2000);w=cs[:,d.shape_id.to_numpy()-1]*cl[:,d.illumination_id.to_numpy()-1];sw=w.sum(1);den=w@(y*y)-(w@y)**2/sw"
+  },
+  {
+    "script": "prepare_figure5_english.py",
+    "line": 27,
+    "code": "(O/'data/increment_analysis.json').write_text(json.dumps(dict(seed=20261004,n_bootstrap=2000,method='Paired crossed shape x illumination multinomial bootstrap of fixed OOF predictions; no model or nuisance refit',layer_selection='Final sampled language block, not best held-out block',statistic='R2 combined prediction minus R2 physical/color baseline; denominator is human variance in each draw'),indent=2))"
+  },
+  {
+    "script": "prepare_matching_full.py",
+    "line": 23,
+    "code": "cfg.update(full_collection=True,n_images=len(rows),total_scheduled=len(schedule),freeze_sha256=freeze,schedule_seed=2026092901,"
+  },
+  {
+    "script": "prepare_mllm_protocol.py",
+    "line": 116,
+    "code": "freeze=dict(seed=20260926,requests_per_model=len(records),engineering_per_model=len(engineering),image_input='original_512_with_background',labels_in_requests=False,sha256={p:hashlib.sha256((OUT/p).read_bytes()).hexdigest() for p in files})"
+  },
+  {
+    "script": "revise_nmi_readouts.py",
+    "line": 7,
+    "code": "rng=np.random.default_rng(20261002);s=pd.Categorical(ann.shape_id).codes;l=pd.Categorical(ann.illumination_id).codes"
+  },
+  {
+    "script": "revise_nmi_stats.py",
+    "line": 8,
+    "code": "seed=20261001;N=2000;P=99999;rng=np.random.default_rng(seed)"
+  },
+  {
+    "script": "run_mechanism_v1.py",
+    "line": 23,
+    "code": "save(O/'plan.json',dict(seed=20260929,n_images=3888,models=['InternVL','Qwen3'],weights='frozen; no finetuning',features='vision 25/50/75/100 percent blocks mean; bridge token mean; language same depths last prompt token, before any answer; Qwen deepstack branch means retained',task='original single-image gloss prompt; full input context recorded',raw_retention='all selected pooled vectors; full bridge token matrices for every stimulus/reference; these are selected activation records, not all neurons of every layer',direction='OLS slope of centered reference bridge mean on reference c, normalized; no human labels. Same definition in both models.',controls='unit brightness direction from non-intervention original images; 3 seeded orthogonal random directions; same norm/dose. Qwen bridge-only intervention leaves DeepStack branches intact.',intervention_images=chosen,n_intervention_images=len(chosen),intervention='72 images x 2 presentation orders; fixed reference index 27; bridge uniform additive doses -1,-0.5,0,0.5,1 reference-range slope norm; candidate, brightness, random0/1/2 directions; baseline shared',matching='12 fixed shape-diverse intervention images; start27; same A/B/SAME bisection stop rules max7; candidate +1/-1, random0 +1/-1, baseline; constrained first-token choice, not free generation; distinguish from original acquisition',probe='ridge readouts fitted on original human/physical/model targets; shape and illumination group CV; layers shown separately, no selecting best test layer; random projection for wide representations fitted without labels',scope='exploratory frozen internal-response experiments; localization/readout is not causal evidence; additive intervention measures model sensitivity and may perturb off-manifold features; no proof of human neural mechanism'))"
+  },
+  {
+    "script": "run_mechanism_v1.py",
+    "line": 55,
+    "code": "dirs={'candidate':direction,'brightness':v};rng=np.random.default_rng(plan['seed'])"
+  },
+  {
+    "script": "run_mllm_responses.py",
+    "line": 86,
+    "code": "seed=int(hashlib.sha256(r['request_id'].encode()).hexdigest()[:8],16)"
+  },
+  {
+    "script": "run_mllm_responses.py",
+    "line": 91,
+    "code": "result=dict(r,model=args.model,raw=raw,parsed=parsed,parse_status=status,elapsed_s=time.time()-start,seed=seed,**info)"
+  },
+  {
+    "script": "run_qwen3_full.py",
+    "line": 24,
+    "code": "cfg=dict(model='Qwen/Qwen3-VL-4B-Instruct',seed=20260928,decoding=dict(do_sample=False,max_new_tokens=64),matching_prompt=mcfg['prompt'],matching_system=mcfg['system'],prompts={k:prompts[k] for k in ['system','T1','T2']},pilot_image_ids=read(M/'matching_qwen3vl4b_pilot12/protocol.json')['image_ids'],selection='All original stimuli/pairs/starts; flag prior pilot and original matching development images; no performance-dependent stopping',matching='Same 1..52 bisection, maximum7 decisions, final presented index conversion; A=test B=reference',catch_scope='Main three task responses only; original InternVL practice/catch are not rerun',presentation='One or two images per fresh context; native Qwen preprocessing; bf16 SDPA',source_hashes={str(p.relative_to(B)):digest(p) for p in [M/'manifests/requests.jsonl',M/'matching_full_v1/schedule.json',M/'protocol/prompts.json',B/'models/qwen3vl4b/manifest.json']})"
+  },
+  {
+    "script": "run_qwen3_matching12.py",
+    "line": 24,
+    "code": "cfg=dict(model='Qwen/Qwen3-VL-4B-Instruct',image_ids=source['image_ids'],trials=trials,prompt=source['prompt'],hashes=source['hashes'],n_images=12,repetitions=2,max_steps=7,decoding=dict(do_sample=False,max_new_tokens=16),seed=20260928,precision='bfloat16',attention='sdpa',quantization=None,presentation='Two images in a fresh independent context per comparison; Image A=test, Image B=reference. Matches InternVL pairwise presentation; GPT used up to four pairs per context.',selection='Exactly the previously fixed GPT pilot image IDs and original schedule starts; no label-based selection',reference='Reconstructed reference v3, 52 levels; c=(k-1)*0.1487/51',stopping='SAME, boundary, bracket exhausted, or seven steps; retain last presented k',created=time.time(),scope='Pilot feasibility and same-image concordance; insufficient to estimate 36 shape and 36 illumination effects',source_gpt_protocol_sha256=digest(GPT/'protocol.json'))"
+  },
+  {
+    "script": "run_qwen3_matching12.py",
+    "line": 96,
+    "code": "result=dict(binding=binding,raw=raw,answer=answer if valid else None,valid=valid,elapsed_seconds=time.time()-tic,input_tokens=int(inputs.input_ids.shape[1]),output_token_ids=output[0,inputs.input_ids.shape[1]:].cpu().tolist(),image_grid_thw=inputs['image_grid_thw'].cpu().tolist(),pixel_values_shape=list(inputs['pixel_values'].shape),seed=cfg['seed'])"
+  },
+  {
+    "script": "run_subscription_matching_pilot.py",
+    "line": 66,
+    "code": "rng=np.random.default_rng(20260928);boot=[]"
+  },
+  {
+    "script": "summarize_robustness.py",
+    "line": 33,
+    "code": "tiny.append(dict(split=split,seed=seed,fold=fold,learning_rate=lr,**metrics(g.human,g.prediction)))"
+  },
+  {
+    "script": "summarize_robustness.py",
+    "line": 34,
+    "code": "for epoch,loss in enumerate(meta['train_loss_history'],1):losses.append(dict(split=split,seed=seed,fold=fold,learning_rate=lr,epoch=epoch,normalized_augmented_train_mae=loss))"
+  },
+  {
+    "script": "summarize_spose_results.py",
+    "line": 19,
+    "code": "dimension_rows.append(dict(source=source,seed=int(fit.seed),dimension=int(j),human_gloss_rho=float(spearmanr(w[:,j],panel.human_gloss_score)[0]),physical_gloss_rho=float(spearmanr(w[:,j],panel.physical_pellacini_c)[0])))"
+  },
+  {
+    "script": "summarize_three_model_pilot.py",
+    "line": 15,
+    "code": "rng=np.random.default_rng(20260928)"
+  },
+  {
+    "script": "train_tiny_control.py",
+    "line": 64,
+    "code": "pd.DataFrame(dict(image_id=a.iloc[te].image_id,split=factor,fold=f,seed=seed,human=a.iloc[te].human_gloss_score,prediction=predictions)).to_csv(file,index=False)"
+  },
+  {
+    "script": "train_tiny_control.py",
+    "line": 66,
+    "code": "(OUT/f'{factor}_seed{seed}_fold{f}_audit.json').write_text(json.dumps(dict(train_image_ids=a.iloc[tr].image_id.tolist(),test_image_ids=a.iloc[te].image_id.tolist(),train_loss_history=history,selected_epoch=30,seed=seed,learning_rate=lr,parameters=sum(p.numel() for p in model.parameters()),config_sha256=hashlib.sha256((BASE/'protocols/robustness_v2_config.json').read_bytes()).hexdigest()),indent=2))"
+  }
+]

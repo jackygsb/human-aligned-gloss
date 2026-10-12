@@ -1,0 +1,3 @@
+model,layer,split,target,image_id,truth,prediction
+InternVL,bridge,shape,human,morimoto_0095,0.0755648692810457,0.0715023949381677
+Qwen3,bridge,shape,human,morimoto_0095,0.0755648692810457,0.0575502666945839

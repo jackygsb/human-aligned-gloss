@@ -1,0 +1,48 @@
+{
+  "upstream": "https://github.com/takuma929/gloss_tinynetworks",
+  "commit": "Not inferred from locally supplied ZIP; file hashes retained",
+  "license": "MIT; see LICENSE",
+  "scope": "Selected author analysis source for provenance, not a complete third-party data/runtime distribution",
+  "files": [
+    {
+      "file": "LICENSE",
+      "sha256": "ed28f8499e137e21b36414cd22dea40a09bea8c9a84c420c1f1cd61227cfafa4"
+    },
+    {
+      "file": "README.md",
+      "sha256": "61d66c5783d32ceef3db5b016656360da39f03f941a362135295d4e3b092da67"
+    },
+    {
+      "file": "main.m",
+      "sha256": "203cf901578bd75d5c15feabd470cf09b4e0dc2fc277a4eb2565918490910eaa"
+    },
+    {
+      "file": "fig3_model_comparison.m",
+      "sha256": "2c5a3b04790ed05e606a185319a29a6e0fb102f0e5644f7189c0c5133b659497"
+    },
+    {
+      "file": "fig4b_24kernels.m",
+      "sha256": "5419f6cf4ef6769cc2df96032b99283b476f3aaefe7f14fd3fba48bdafafafd5"
+    },
+    {
+      "file": "fig4c_4d_S7bc_S9c_analyze_kernel.m",
+      "sha256": "0c7bf54b84e4ef43d2274684cb1db02dfc41d19f84ef6ca06d8c73dd207b2d3d"
+    },
+    {
+      "file": "fig4g_1kernel_fittingResults.m",
+      "sha256": "7f868fbbbeeedec286574b0b4a9269046a9abebe0fff2abc3d28482be8fcef01"
+    },
+    {
+      "file": "fig4h_24kernel_fittingResults.m",
+      "sha256": "515cb029d0377e8e9bed7c2d65e4432c3446dc693f9a1ecc1df7084257626fb0"
+    },
+    {
+      "file": "fig4i_region_of_max_activation.m",
+      "sha256": "222940d7f0473ca0c56eabdfe5bfc9aef9b359ae39d115591007c110d7af8efe"
+    },
+    {
+      "file": "fit_kernel_gauss_ridges.m",
+      "sha256": "88fea52a44d19ccabff31a40e1ba581af26f8ad06430f53a41be2dce3f499e26"
+    }
+  ]
+}

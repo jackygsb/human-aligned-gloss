@@ -1,0 +1,7 @@
+{
+  "seed": 20261004,
+  "n_bootstrap": 2000,
+  "method": "Paired crossed shape x illumination multinomial bootstrap of fixed OOF predictions; no model or nuisance refit",
+  "layer_selection": "Final sampled language block, not best held-out block",
+  "statistic": "R2 combined prediction minus R2 physical/color baseline; denominator is human variance in each draw"
+}

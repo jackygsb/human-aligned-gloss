@@ -1,0 +1,23 @@
+{
+  "pair_id": 1,
+  "stratum": "discordant",
+  "a_id": "morimoto_2858",
+  "b_id": "morimoto_3859",
+  "a_index": 2857,
+  "b_index": 3858,
+  "t2_probability_a": 0.0,
+  "order1_a": 0.0,
+  "order2_a": 0.0,
+  "swap_consistent": true,
+  "delta_single": -45,
+  "delta_matching": -0.0087470588235294,
+  "delta_human": -0.0261439869281046,
+  "delta_physical": 0.034988235294117,
+  "matching_heldout_both": true,
+  "single_cv_probability": 0.0132957403939793,
+  "matching_cv_probability": 0.4225125818662936,
+  "joint_cv_probability": 0.0551103242931741,
+  "pair_cv_fold": 2,
+  "choice_a": 0.0,
+  "qwen_swap": true
+}

@@ -1,0 +1,33 @@
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Reproducible outputs and scratch analyses
+figures/regenerated/
+figures/published/
+work/
+tmp/
+docs/figure_reproduction_contactsheet_*.png
+
+# Full data and foundation weights are separate; compact nested figure data stay tracked.
+/data/
+/models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+.env
+.env.*
+.local-secrets/
+*browser_profile*/
+*credentials*.json
+*api_key*
+
+# Nested figures/inputs/**/data/ directories and selected NPZ arrays are required.

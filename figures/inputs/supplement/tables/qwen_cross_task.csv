@@ -1,0 +1,5 @@
+split,source,target,r2,spearman
+shape,single_score,model_c,0.7757815855391467,0.7976996356607522
+shape,model_c,single_score,0.7489704405344222,0.8448431142714494
+illumination,single_score,model_c,0.777807882830054,0.8064419662443969
+illumination,model_c,single_score,0.7504730383334072,0.8475518257801883

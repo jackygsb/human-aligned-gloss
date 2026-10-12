@@ -1,0 +1,10 @@
+{
+  "claim": "Shared human-like gloss judgments across two frozen models, including deviations from physical ordering.",
+  "cohort": "3849 images excluding the 39 original matching-development images. Prior Qwen pilot images remain; not a new confirmatory cohort.",
+  "new_analysis": "Descriptive within-physical-level Spearman correlations (all levels retained); pooled Pearson association after subtracting the mean within each exact physical-c level. Residual association CI uses 2000 crossed shape/illumination bootstrap draws, refitting weighted physical-level means in every draw.",
+  "gallery": "Human empirical thirds versus equal-width physical-c thirds. Two examples nearest each cell center in the two rank coordinates, preferring distinct shapes. No model-agreement filter. Cell counts and median model percentile ranks use all images.",
+  "conflict_example": "First archived discordant pair by pair_id for which both models choose the human-preferred stimulus in both presentation orders, with both images in the common cohort; explicitly illustrative. Overall inference uses all 1000 conflict pairs.",
+  "seed": 20261004,
+  "bootstrap": 2000,
+  "scope": "Post-hoc reanalysis of existing image-level means, not human participant inference. No new responses collected."
+}

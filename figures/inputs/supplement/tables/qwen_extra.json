@@ -1,0 +1,14 @@
+{
+  "matching_heldout": {
+    "n": 3849,
+    "partial_pearson_linear_physical": 0.6195967493398209,
+    "repeat_spearman": 0.9942048556564111,
+    "upper_mean_fraction": 0.28864640166276956
+  },
+  "new_validation": {
+    "n": 3837,
+    "partial_pearson_linear_physical": 0.6188833187209143,
+    "repeat_spearman": 0.9941874174886796,
+    "upper_mean_fraction": 0.2877247849882721
+  }
+}

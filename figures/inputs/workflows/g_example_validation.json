@@ -1,0 +1,54 @@
+{
+  "feature_checks": [
+    {
+      "model": "InternVL",
+      "vision_values": 1024,
+      "bridge_values": 2560,
+      "language_values": 2560,
+      "bridge_grid": [
+        16,
+        16
+      ],
+      "bridge_tokens_shape": [
+        256,
+        2560
+      ],
+      "pooled_float32_vs_float16_token_mean_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "model": "Qwen3",
+      "vision_values": 1024,
+      "bridge_values": 2560,
+      "language_values": 2560,
+      "bridge_grid": [
+        16,
+        16
+      ],
+      "bridge_tokens_shape": [
+        256,
+        2560
+      ],
+      "pooled_float32_vs_float16_token_mean_max_difference": 5.960464477539063e-08
+    }
+  ],
+  "predictions": [
+    {
+      "model": "InternVL",
+      "layer": "bridge",
+      "split": "shape",
+      "target": "human",
+      "image_id": "morimoto_0095",
+      "truth": 0.0755648692810457,
+      "prediction": 0.0715023949381677
+    },
+    {
+      "model": "Qwen3",
+      "layer": "bridge",
+      "split": "shape",
+      "target": "human",
+      "image_id": "morimoto_0095",
+      "truth": 0.0755648692810457,
+      "prediction": 0.0575502666945839
+    }
+  ]
+}

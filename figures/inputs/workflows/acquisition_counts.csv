@@ -1,0 +1,3 @@
+model,test_images,single_responses,unique_pairs,pair_orders,pair_responses,complete_matches,matching_responses,total_responses
+InternVL,3888,3888,2000,2,4000,7776,46375,54263
+Qwen3,3888,3888,2000,2,4000,7776,46581,54469

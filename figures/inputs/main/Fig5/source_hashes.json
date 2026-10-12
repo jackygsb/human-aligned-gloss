@@ -1,0 +1,14 @@
+{
+  "mllm_material\\mechanisms_v1\\tables\\layer_readouts.csv": "be50e629e308360c6bf953384c548a03d4e71a7d1e64aaf7f49ea684f95a5739",
+  "mllm_material\\mechanisms_v1\\tables\\readout_predictions.csv.gz": "97b8212b2692586f09d843e5fcb5ebf7ae213a789dd473f879840b111561a82a",
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_readout_ci.csv": "b423406b1774db9cc11432c86bb305accdcafb0166a2731db9e8f50c2d832a0a",
+  "mllm_material\\mechanisms_v1\\stimuli.csv": "7f380194b90bfd3badd18bd05a67227e7412286b2d960479a5e01199fd1fb685",
+  "mllm_material\\mechanisms_v1\\Methods.md": "a0eef56fb6502e70b447f2523f807ca8d42bce8ff9721a5dd27a2cffd59652fd",
+  "mllm_material\\mechanisms_v1\\plan.json": "6a01d291c1b1048aba6272ef0efc8d66b5bab684e4f50919b29bbcbf8a2a64b6",
+  "mllm_material\\protocol\\prompts.json": "39f03ba7e18687d8a30915bcc3aa1c36bbb2f9874b3f02bd6bc2916c7032a104",
+  "mllm_material\\mechanisms_v1\\code\\analyze_mechanism_v1.py": "7f7bfc41deb4549a154fe9e6d5eda4dd886f43ab8f34a5ef0dc9c0264e9e2007",
+  "mllm_material\\mechanisms_v1\\code\\mechanism_backend_v1.py": "1f4eb68d1c332da72f7dd796b8a25642e4e64e4a5db3d7937d3d5efea6aab265",
+  "mllm_material\\mechanisms_v1\\code\\run_mechanism_v1.py": "677d542c4dfdc92ac86ce1e70b04e35be42b49165bc53a04d3aab81b055dafab",
+  "mllm_material\\mechanisms_v1\\InternVL\\layer_spec.json": "42f0b71ba11aa146dac9a766aff6541c799be8c70843c041bb554ddce1710f3f",
+  "mllm_material\\mechanisms_v1\\Qwen3\\layer_spec.json": "42f0b71ba11aa146dac9a766aff6541c799be8c70843c041bb554ddce1710f3f"
+}

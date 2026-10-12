@@ -1,0 +1,289 @@
+{
+  "n_evaluated": 3849,
+  "independent_tiny_not_exact_author": true,
+  "metrics": [
+    {
+      "split": "shape",
+      "model": "controls_tiny_cubic",
+      "n": 3849,
+      "r2": 0.4258744559016273,
+      "mse": 0.0006135246075814759,
+      "mae": 0.01963208255251185,
+      "pearson": 0.6531161781120548,
+      "spearman": 0.6452466114383316
+    },
+    {
+      "split": "shape",
+      "model": "controls_tiny_cubic_plus_internvl",
+      "n": 3849,
+      "r2": 0.5244513826570885,
+      "mse": 0.0005081828910772728,
+      "mae": 0.017929759383533563,
+      "pearson": 0.7244559441496828,
+      "spearman": 0.7127172687428998
+    },
+    {
+      "split": "shape",
+      "model": "internvl_only",
+      "n": 3849,
+      "r2": 0.3630530073071707,
+      "mse": 0.0006806571450426724,
+      "mae": 0.02146340181513989,
+      "pearson": 0.6025490036321021,
+      "spearman": 0.5749842924494369
+    },
+    {
+      "split": "shape",
+      "model": "tiny_cubic",
+      "n": 3849,
+      "r2": 0.2171588014034913,
+      "mse": 0.0008365632640885254,
+      "mae": 0.02403860281827274,
+      "pearson": 0.4673004869889828,
+      "spearman": 0.4222138659140503
+    },
+    {
+      "split": "shape",
+      "model": "tiny_cubic_plus_internvl",
+      "n": 3849,
+      "r2": 0.42510128980390915,
+      "mse": 0.0006143508317959773,
+      "mae": 0.020127469673780107,
+      "pearson": 0.6520834667068091,
+      "spearman": 0.6153822426037222
+    },
+    {
+      "split": "shape",
+      "model": "tiny_linear",
+      "n": 3849,
+      "r2": 0.21158392547348448,
+      "mse": 0.0008425207129469354,
+      "mae": 0.024147727162821993,
+      "pearson": 0.4616046659273082,
+      "spearman": 0.4175159494022838
+    },
+    {
+      "split": "shape",
+      "model": "tiny_linear_plus_internvl",
+      "n": 3849,
+      "r2": 0.42427458065191204,
+      "mse": 0.0006152342734286947,
+      "mae": 0.02015657073366914,
+      "pearson": 0.6514604194388128,
+      "spearman": 0.6157641263402004
+    },
+    {
+      "split": "illumination",
+      "model": "controls_tiny_cubic",
+      "n": 3849,
+      "r2": 0.45455294030484084,
+      "mse": 0.0005828780772705056,
+      "mae": 0.01915077590356472,
+      "pearson": 0.6744588680765696,
+      "spearman": 0.6610099843850997
+    },
+    {
+      "split": "illumination",
+      "model": "controls_tiny_cubic_plus_internvl",
+      "n": 3849,
+      "r2": 0.5537956746927881,
+      "mse": 0.0004768248624352409,
+      "mae": 0.017383022620837008,
+      "pearson": 0.7442024641183275,
+      "spearman": 0.731587085902965
+    },
+    {
+      "split": "illumination",
+      "model": "internvl_only",
+      "n": 3849,
+      "r2": 0.3648807843096462,
+      "mse": 0.0006787039378047828,
+      "mae": 0.021420551082029622,
+      "pearson": 0.6040626517154205,
+      "spearman": 0.577360624590535
+    },
+    {
+      "split": "illumination",
+      "model": "tiny_cubic",
+      "n": 3849,
+      "r2": 0.2430108919664511,
+      "mse": 0.0008089370874084593,
+      "mae": 0.02375789583603497,
+      "pearson": 0.4932942871192014,
+      "spearman": 0.4226413864260042
+    },
+    {
+      "split": "illumination",
+      "model": "tiny_cubic_plus_internvl",
+      "n": 3849,
+      "r2": 0.4515448639007178,
+      "mse": 0.0005860925813356626,
+      "mae": 0.01969365476335635,
+      "pearson": 0.671978830457877,
+      "spearman": 0.6328117901918526
+    },
+    {
+      "split": "illumination",
+      "model": "tiny_linear",
+      "n": 3849,
+      "r2": 0.23918066969874596,
+      "mse": 0.0008130301566646515,
+      "mae": 0.02381922809322306,
+      "pearson": 0.4894441923221462,
+      "spearman": 0.4227232205342256
+    },
+    {
+      "split": "illumination",
+      "model": "tiny_linear_plus_internvl",
+      "n": 3849,
+      "r2": 0.450161695915974,
+      "mse": 0.0005875706684958358,
+      "mae": 0.019714076245794136,
+      "pearson": 0.6709494635494165,
+      "spearman": 0.6327557658811042
+    }
+  ],
+  "gains": [
+    {
+      "split": "shape",
+      "baseline": "tiny_linear",
+      "delta_r2": 0.21269065517842756,
+      "relative_mse_reduction": 0.26976955702756217,
+      "mae_reduction": 0.003991156429152852,
+      "shape_cluster_ci95_delta_r2": [
+        0.16150220622459652,
+        0.26508077140830655
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.17273045164995676,
+        0.2516822020546287
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.1431217897421613,
+        0.28328462645724145
+      ]
+    },
+    {
+      "split": "shape",
+      "baseline": "tiny_cubic",
+      "delta_r2": 0.2079424884004178,
+      "relative_mse_reduction": 0.26562537686215376,
+      "mae_reduction": 0.003911133144492634,
+      "shape_cluster_ci95_delta_r2": [
+        0.1608684778895312,
+        0.2606342011374069
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.16762969360681645,
+        0.2451127766976463
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.14442548093474072,
+        0.2779403039004532
+      ]
+    },
+    {
+      "split": "shape",
+      "baseline": "controls_tiny_cubic",
+      "delta_r2": 0.09857692675546098,
+      "relative_mse_reduction": 0.1716992524871363,
+      "mae_reduction": 0.0017023231689782907,
+      "shape_cluster_ci95_delta_r2": [
+        0.05662408051935851,
+        0.1461038813134891
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.07543797298166163,
+        0.1222019058320661
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.04780234493455168,
+        0.15187395102995374
+      ]
+    },
+    {
+      "split": "illumination",
+      "baseline": "tiny_linear",
+      "delta_r2": 0.210981026217228,
+      "relative_mse_reduction": 0.27730765743516,
+      "mae_reduction": 0.004105151847428928,
+      "shape_cluster_ci95_delta_r2": [
+        0.16959135082696322,
+        0.2529869341445777
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.16247582772135438,
+        0.26277573669549253
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.14359467574471385,
+        0.2795283146293286
+      ]
+    },
+    {
+      "split": "illumination",
+      "baseline": "tiny_cubic",
+      "delta_r2": 0.20853397193426673,
+      "relative_mse_reduction": 0.2754781670187846,
+      "mae_reduction": 0.004064241072678623,
+      "shape_cluster_ci95_delta_r2": [
+        0.16636265601401706,
+        0.2514038541575082
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.15867285289701652,
+        0.25856885900343635
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.1425605536615732,
+        0.28149448951500666
+      ]
+    },
+    {
+      "split": "illumination",
+      "baseline": "controls_tiny_cubic",
+      "delta_r2": 0.09924273438794727,
+      "relative_mse_reduction": 0.1819475100725858,
+      "mae_reduction": 0.0017677532827277142,
+      "shape_cluster_ci95_delta_r2": [
+        0.055530752677152705,
+        0.14763349461963493
+      ],
+      "illumination_cluster_ci95_delta_r2": [
+        0.07225833185999272,
+        0.1250515625188003
+      ],
+      "crossed_cluster_ci95_delta_r2": [
+        0.046538264471685895,
+        0.154376846854566
+      ]
+    }
+  ],
+  "author_supplement": [
+    {
+      "author_column": "onelayer_lighting",
+      "n": 3849,
+      "residual_pearson": 0.4322856326176148,
+      "status": "Descriptive all-sample residual association; exact author fold mapping unknown, NOT predictive validation"
+    },
+    {
+      "author_column": "onelayer_shape",
+      "n": 3849,
+      "residual_pearson": 0.4423564831943958,
+      "status": "Descriptive all-sample residual association; exact author fold mapping unknown, NOT predictive validation"
+    },
+    {
+      "author_column": "threelayer_lighting",
+      "n": 3849,
+      "residual_pearson": 0.3240793234085382,
+      "status": "Descriptive all-sample residual association; exact author fold mapping unknown, NOT predictive validation"
+    },
+    {
+      "author_column": "threelayer_shape",
+      "n": 3849,
+      "residual_pearson": 0.43575226953235896,
+      "status": "Descriptive all-sample residual association; exact author fold mapping unknown, NOT predictive validation"
+    }
+  ],
+  "uncertainty": "Fixed-prediction paired cluster bootstrap; conditional on fitted models; overlaps in training folds not treated as independent replications"
+}

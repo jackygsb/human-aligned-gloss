@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code, cite the authors and software title below. This
+  repository is in private preparation; no Zenodo DOI has yet been assigned.
+repository-code: "https://github.com/jackygsb/human-aligned-gloss"
+title: "Human-aligned gloss judgments in frozen vision–language models: code and figure reproduction"
+version: "1.0.0"
+type: software
+authors:
+  - family-names: Gao
+    given-names: Shaobing
+    affiliation: "School of Artificial Intelligence, Sichuan University"
+    email: gaoshaobing@scu.edu.cn
+  - family-names: Tan
+    given-names: Minjie
+    affiliation: "College of Computer Science and Artificial Intelligence, Southwest Minzu University"
+  - family-names: Li
+    given-names: Yuanpeng
+    affiliation: "College of Computer Science, Sichuan University"
+  - family-names: Tan
+    given-names: Xilin
+    affiliation: "College of Computer Science, Sichuan University"
+  - family-names: Li
+    given-names: Changyu
+    affiliation: "College of Computer Science, Sichuan University"
+  - family-names: Wei
+    given-names: Jianjun
+    affiliation: "College of Computer Science, Sichuan University"
+  - family-names: Liu
+    given-names: Shihao
+    affiliation: "College of Computer Science, Sichuan University"
+abstract: >-
+  Code, exact experimental configurations and compact inputs for reproducing
+  six main figures, supplementary figures S1–S15 and tables S1–S9 for the study
+  of human-aligned gloss judgments in frozen InternVL and Qwen3 vision–language
+  models. Shaobing Gao and Minjie Tan contributed equally; Shaobing Gao is the
+  corresponding author. MIT applies to original project code only; third-party
+  code and research assets retain their original rights and notices.
+license: MIT
+keywords:
+  - gloss perception
+  - vision-language models
+  - behavioral alignment
+  - representational similarity analysis
+  - reproducible research

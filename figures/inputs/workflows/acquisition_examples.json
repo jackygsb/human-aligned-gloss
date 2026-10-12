@@ -1,0 +1,978 @@
+{
+  "selection": "Single: illumination 1, viewpoint 1, shapes 1,4,...,34. Pairs: first three groups in the fixed manifest, both orders. Matches: first three main trials, first three recorded decisions.",
+  "single": [
+    {
+      "request_id": "T1_main_000000",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        0
+      ],
+      "image_ids": [
+        "morimoto_0001"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img1.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 20, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 20,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 1.250718116760254,
+      "seed": 1238532995,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000009",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        9
+      ],
+      "image_ids": [
+        "morimoto_0010"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img10.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 50, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 50,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9181075096130371,
+      "seed": 3615969714,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000018",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        18
+      ],
+      "image_ids": [
+        "morimoto_0019"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img19.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 20, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 20,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9299514293670654,
+      "seed": 3289820105,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000027",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        27
+      ],
+      "image_ids": [
+        "morimoto_0028"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img28.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 30, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 30,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9113929271697998,
+      "seed": 2427611804,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000036",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        36
+      ],
+      "image_ids": [
+        "morimoto_0037"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img37.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 50, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 50,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9183461666107178,
+      "seed": 942624109,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000045",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        45
+      ],
+      "image_ids": [
+        "morimoto_0046"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img46.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 75, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 75,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9120461940765381,
+      "seed": 3862118558,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000054",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        54
+      ],
+      "image_ids": [
+        "morimoto_0055"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img55.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 30, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 30,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9145174026489258,
+      "seed": 1590862164,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000063",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        63
+      ],
+      "image_ids": [
+        "morimoto_0064"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img64.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 85, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 85,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9235892295837402,
+      "seed": 32843829,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000072",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        72
+      ],
+      "image_ids": [
+        "morimoto_0073"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img73.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 30, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 30,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.919119119644165,
+      "seed": 2701859162,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000081",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        81
+      ],
+      "image_ids": [
+        "morimoto_0082"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img82.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 30, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 30,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9110238552093506,
+      "seed": 1389184199,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000090",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        90
+      ],
+      "image_ids": [
+        "morimoto_0091"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img91.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 70, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 70,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9209408760070801,
+      "seed": 1563798005,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    },
+    {
+      "request_id": "T1_main_000099",
+      "task": "T1",
+      "condition": "main",
+      "indices": [
+        99
+      ],
+      "image_ids": [
+        "morimoto_0100"
+      ],
+      "image_paths": [
+        "images_processed/512x512/gloss/img100.png"
+      ],
+      "split": "",
+      "sample": false,
+      "group": "",
+      "model": "internvl35_4b",
+      "raw": "{\"glossiness\": 20, \"status\": \"ok\"}",
+      "parsed": {
+        "glossiness": 20,
+        "status": "ok"
+      },
+      "parse_status": "valid",
+      "elapsed_s": 0.9035670757293701,
+      "seed": 2981037188,
+      "image_tiles": [
+        1
+      ],
+      "tile_size": 448,
+      "output_tokens": 15,
+      "attention": "upstream_eager"
+    }
+  ],
+  "pairs": [
+    [
+      {
+        "request_id": "T2_main_006048",
+        "task": "T2",
+        "condition": "main",
+        "indices": [
+          2461,
+          3647
+        ],
+        "image_ids": [
+          "morimoto_2462",
+          "morimoto_3648"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img2462.png",
+          "images_processed/512x512/gloss/img3648.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair0",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"B\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "B",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.7273054122924805,
+        "seed": 752694124,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      },
+      {
+        "request_id": "T2_swap_006049",
+        "task": "T2",
+        "condition": "swap",
+        "indices": [
+          3647,
+          2461
+        ],
+        "image_ids": [
+          "morimoto_3648",
+          "morimoto_2462"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img3648.png",
+          "images_processed/512x512/gloss/img2462.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair0",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"B\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "B",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.3291690349578857,
+        "seed": 1913680522,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      }
+    ],
+    [
+      {
+        "request_id": "T2_main_006050",
+        "task": "T2",
+        "condition": "main",
+        "indices": [
+          2857,
+          3858
+        ],
+        "image_ids": [
+          "morimoto_2858",
+          "morimoto_3859"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img2858.png",
+          "images_processed/512x512/gloss/img3859.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair1",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"B\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "B",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.3414061069488525,
+        "seed": 1341045126,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      },
+      {
+        "request_id": "T2_swap_006051",
+        "task": "T2",
+        "condition": "swap",
+        "indices": [
+          3858,
+          2857
+        ],
+        "image_ids": [
+          "morimoto_3859",
+          "morimoto_2858"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img3859.png",
+          "images_processed/512x512/gloss/img2858.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair1",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"A\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "A",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.35890793800354,
+        "seed": 3096084751,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      }
+    ],
+    [
+      {
+        "request_id": "T2_main_006052",
+        "task": "T2",
+        "condition": "main",
+        "indices": [
+          586,
+          3631
+        ],
+        "image_ids": [
+          "morimoto_0587",
+          "morimoto_3632"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img587.png",
+          "images_processed/512x512/gloss/img3632.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair2",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"A\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "A",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.3436846733093262,
+        "seed": 738351289,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      },
+      {
+        "request_id": "T2_swap_006053",
+        "task": "T2",
+        "condition": "swap",
+        "indices": [
+          3631,
+          586
+        ],
+        "image_ids": [
+          "morimoto_3632",
+          "morimoto_0587"
+        ],
+        "image_paths": [
+          "images_processed/512x512/gloss/img3632.png",
+          "images_processed/512x512/gloss/img587.png"
+        ],
+        "split": "",
+        "sample": false,
+        "group": "pair2",
+        "model": "internvl35_4b",
+        "raw": "```json\n{\n  \"choice\": \"A\",\n  \"status\": \"ok\"\n}\n```",
+        "parsed": {
+          "choice": "A",
+          "status": "ok"
+        },
+        "parse_status": "valid",
+        "elapsed_s": 1.3300580978393555,
+        "seed": 345750904,
+        "image_tiles": [
+          1,
+          1
+        ],
+        "tile_size": 448,
+        "output_tokens": 20,
+        "attention": "upstream_eager"
+      }
+    ]
+  ],
+  "matching": [
+    {
+      "trial": {
+        "trial_id": "morimoto_1889_r1",
+        "phase": "main",
+        "image_id": "morimoto_1889",
+        "image_path": "images_processed/512x512/gloss/img1889.png",
+        "repetition": 1,
+        "start": 15,
+        "block": 1,
+        "cohort": "heldout_matching",
+        "start_index": 15,
+        "final_presented_index": 39,
+        "matching_c": 0.11079607843137254,
+        "stop_reason": "bracket_exhausted",
+        "valid": true,
+        "decisions": 6,
+        "elapsed_s": 1.8221759796142578,
+        "trace_indices": [
+          15,
+          34,
+          43,
+          38,
+          40,
+          39
+        ],
+        "trace_actions": [
+          "INCREASE",
+          "INCREASE",
+          "DECREASE",
+          "INCREASE",
+          "DECREASE",
+          "INCREASE"
+        ]
+      },
+      "decisions": [
+        {
+          "trial_id": "morimoto_1889_r1",
+          "phase": "main",
+          "image_id": "morimoto_1889",
+          "image_path": "images_processed/512x512/gloss/img1889.png",
+          "repetition": 1,
+          "start": 15,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 1,
+          "reference_index": 15,
+          "low": 1,
+          "high": 52,
+          "action": "INCREASE",
+          "raw": "A",
+          "elapsed_s": 0.3162524700164795,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1889.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_15.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_1889_r1",
+          "phase": "main",
+          "image_id": "morimoto_1889",
+          "image_path": "images_processed/512x512/gloss/img1889.png",
+          "repetition": 1,
+          "start": 15,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 2,
+          "reference_index": 34,
+          "low": 16,
+          "high": 52,
+          "action": "INCREASE",
+          "raw": "A",
+          "elapsed_s": 0.3029489517211914,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1889.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_34.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_1889_r1",
+          "phase": "main",
+          "image_id": "morimoto_1889",
+          "image_path": "images_processed/512x512/gloss/img1889.png",
+          "repetition": 1,
+          "start": 15,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 3,
+          "reference_index": 43,
+          "low": 35,
+          "high": 52,
+          "action": "DECREASE",
+          "raw": "B",
+          "elapsed_s": 0.3012094497680664,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1889.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_43.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        }
+      ]
+    },
+    {
+      "trial": {
+        "trial_id": "morimoto_1309_r1",
+        "phase": "main",
+        "image_id": "morimoto_1309",
+        "image_path": "images_processed/512x512/gloss/img1309.png",
+        "repetition": 1,
+        "start": 10,
+        "block": 1,
+        "cohort": "heldout_matching",
+        "start_index": 10,
+        "final_presented_index": 52,
+        "matching_c": 0.1487,
+        "stop_reason": "boundary",
+        "valid": true,
+        "decisions": 7,
+        "elapsed_s": 2.121345281600952,
+        "trace_indices": [
+          10,
+          31,
+          42,
+          47,
+          50,
+          51,
+          52
+        ],
+        "trace_actions": [
+          "INCREASE",
+          "INCREASE",
+          "INCREASE",
+          "INCREASE",
+          "INCREASE",
+          "INCREASE",
+          "INCREASE"
+        ]
+      },
+      "decisions": [
+        {
+          "trial_id": "morimoto_1309_r1",
+          "phase": "main",
+          "image_id": "morimoto_1309",
+          "image_path": "images_processed/512x512/gloss/img1309.png",
+          "repetition": 1,
+          "start": 10,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 1,
+          "reference_index": 10,
+          "low": 1,
+          "high": 52,
+          "action": "INCREASE",
+          "raw": "A",
+          "elapsed_s": 0.30524301528930664,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1309.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_10.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_1309_r1",
+          "phase": "main",
+          "image_id": "morimoto_1309",
+          "image_path": "images_processed/512x512/gloss/img1309.png",
+          "repetition": 1,
+          "start": 10,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 2,
+          "reference_index": 31,
+          "low": 11,
+          "high": 52,
+          "action": "INCREASE",
+          "raw": "A",
+          "elapsed_s": 0.3008143901824951,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1309.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_31.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_1309_r1",
+          "phase": "main",
+          "image_id": "morimoto_1309",
+          "image_path": "images_processed/512x512/gloss/img1309.png",
+          "repetition": 1,
+          "start": 10,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 3,
+          "reference_index": 42,
+          "low": 32,
+          "high": 52,
+          "action": "INCREASE",
+          "raw": "A",
+          "elapsed_s": 0.3009655475616455,
+          "image_paths": [
+            "images_processed/512x512/gloss/img1309.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_42.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        }
+      ]
+    },
+    {
+      "trial": {
+        "trial_id": "morimoto_0218_r1",
+        "phase": "main",
+        "image_id": "morimoto_0218",
+        "image_path": "images_processed/512x512/gloss/img218.png",
+        "repetition": 1,
+        "start": 31,
+        "block": 1,
+        "cohort": "heldout_matching",
+        "start_index": 31,
+        "final_presented_index": 1,
+        "matching_c": 0.0,
+        "stop_reason": "boundary",
+        "valid": true,
+        "decisions": 5,
+        "elapsed_s": 1.5074684619903564,
+        "trace_indices": [
+          31,
+          15,
+          7,
+          3,
+          1
+        ],
+        "trace_actions": [
+          "DECREASE",
+          "DECREASE",
+          "DECREASE",
+          "DECREASE",
+          "DECREASE"
+        ]
+      },
+      "decisions": [
+        {
+          "trial_id": "morimoto_0218_r1",
+          "phase": "main",
+          "image_id": "morimoto_0218",
+          "image_path": "images_processed/512x512/gloss/img218.png",
+          "repetition": 1,
+          "start": 31,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 1,
+          "reference_index": 31,
+          "low": 1,
+          "high": 52,
+          "action": "DECREASE",
+          "raw": "B",
+          "elapsed_s": 0.3011636734008789,
+          "image_paths": [
+            "images_processed/512x512/gloss/img218.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_31.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_0218_r1",
+          "phase": "main",
+          "image_id": "morimoto_0218",
+          "image_path": "images_processed/512x512/gloss/img218.png",
+          "repetition": 1,
+          "start": 31,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 2,
+          "reference_index": 15,
+          "low": 1,
+          "high": 30,
+          "action": "DECREASE",
+          "raw": "B",
+          "elapsed_s": 0.302248477935791,
+          "image_paths": [
+            "images_processed/512x512/gloss/img218.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_15.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        },
+        {
+          "trial_id": "morimoto_0218_r1",
+          "phase": "main",
+          "image_id": "morimoto_0218",
+          "image_path": "images_processed/512x512/gloss/img218.png",
+          "repetition": 1,
+          "start": 31,
+          "block": 1,
+          "cohort": "heldout_matching",
+          "step": 3,
+          "reference_index": 7,
+          "low": 1,
+          "high": 14,
+          "action": "DECREASE",
+          "raw": "B",
+          "elapsed_s": 0.30235767364501953,
+          "image_paths": [
+            "images_processed/512x512/gloss/img218.png",
+            "mllm_material/reference_reconstruction_v3/output/reference_07.png"
+          ],
+          "image_tiles": [
+            1,
+            1
+          ],
+          "tile_size": 448,
+          "output_tokens": 1,
+          "attention": "upstream_eager"
+        }
+      ]
+    }
+  ]
+}

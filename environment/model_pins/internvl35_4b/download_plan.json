@@ -1,0 +1,26 @@
+{
+  "repository": "OpenGVLab/InternVL3_5-4B",
+  "revision": "481f6e32467eab4e922ccd7fd6cf420441a62331",
+  "files": [
+    "README.md",
+    "added_tokens.json",
+    "config.json",
+    "configuration_intern_vit.py",
+    "configuration_internvl_chat.py",
+    "conversation.py",
+    "generation_config.json",
+    "merges.txt",
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors",
+    "model.safetensors.index.json",
+    "modeling_intern_vit.py",
+    "modeling_internvl_chat.py",
+    "preprocessor_config.json",
+    "processor_config.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "video_preprocessor_config.json",
+    "vocab.json"
+  ]
+}

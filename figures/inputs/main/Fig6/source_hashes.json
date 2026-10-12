@@ -1,0 +1,23 @@
+{
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_intervention_tests.csv": "cef9baa690dae945d9a7628b0ad105c1c9ff7127c9ee12fb8e8f4e995f970adf",
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_intervention_dose_ci.csv": "dd158e72f4ab31b339610d01561ef0fb9c2f4497da6bfb565671935a06163f35",
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_intervention_shape_values.csv": "6b080eeb28384977707e2b7ad8deffb1ba44c7aca9e395892b9ea1f7af9a2b81",
+  "mllm_material\\mechanisms_v1\\tables\\interventions.csv": "c223421846813d23d76c090bbb6c96bc85d0b27df017d1ab71cf47698c5bab7c",
+  "mllm_material\\mechanisms_v1\\tables\\matching_interventions.csv": "aef2ec95a286584f46af80f398ecc9870c3874a8efc94b7d14186257edd363f0",
+  "mllm_material\\mechanisms_v1\\tables\\shape_cluster_intervention_contrasts.csv": "3e3c9799e3c62d13de6feee5bddb5441ca609a5ec076d836104ed2753a25210a",
+  "mllm_material\\mechanisms_v1\\stimuli.csv": "7f380194b90bfd3badd18bd05a67227e7412286b2d960479a5e01199fd1fb685",
+  "mllm_material\\mechanisms_v1\\Methods.md": "a0eef56fb6502e70b447f2523f807ca8d42bce8ff9721a5dd27a2cffd59652fd",
+  "mllm_material\\mechanisms_v1\\plan.json": "6a01d291c1b1048aba6272ef0efc8d66b5bab684e4f50919b29bbcbf8a2a64b6",
+  "mllm_material\\figure1_english_v6\\h_direction_examples.npz": "159242812d833a3b646f04a0a3d5ba86f39912ad57ea8cf47391ebf282be8ce0",
+  "mllm_material\\figure1_english_v6\\h_method_provenance.json": "c895a92344f35203a4b354379ebb423d2f6add36b7b19dafe6fc95b7ebac9a0e",
+  "mllm_material\\figure1_english_v6\\h_example_selection.csv": "b7b62f6da71b9f9c46c818d20bdc1e91a3058426cef7f33d1372bf66cab014eb",
+  "mllm_material\\mechanisms_v1\\code\\analyze_mechanism_v1.py": "7f7bfc41deb4549a154fe9e6d5eda4dd886f43ab8f34a5ef0dc9c0264e9e2007",
+  "mllm_material\\mechanisms_v1\\code\\mechanism_backend_v1.py": "1f4eb68d1c332da72f7dd796b8a25642e4e64e4a5db3d7937d3d5efea6aab265",
+  "mllm_material\\mechanisms_v1\\code\\run_mechanism_v1.py": "677d542c4dfdc92ac86ce1e70b04e35be42b49165bc53a04d3aab81b055dafab",
+  "images_processed\\512x512\\gloss\\img64.png": "de4f6b5c2ee820e3e3604f0c0f0e5c9816951c68ed2c0a263a7be752b85ddab2",
+  "mllm_material\\reference_reconstruction_v3\\output\\reference_01.png": "fb9d566f890f68bd464f1be7846a0f792f6fb30a1702e1a0d7ffa54b664a6552",
+  "mllm_material\\reference_reconstruction_v3\\output\\reference_14.png": "d57c478a28fb1a5e98560f26ca91c157ad0c019564c8ea5f1421bae0928bdc23",
+  "mllm_material\\reference_reconstruction_v3\\output\\reference_27.png": "f315af45cfa9030b521293c4fd9d92bbc98ddaf475c451930ef8d62c563c4da5",
+  "mllm_material\\reference_reconstruction_v3\\output\\reference_40.png": "629eb09b93a32411938ba1830e9de55cdbd46328910821c53cf399faeafe46db",
+  "mllm_material\\reference_reconstruction_v3\\output\\reference_52.png": "52add069468359ffd1abd3132600444c7c1d6945fbee4cbc7df0167185e02063"
+}

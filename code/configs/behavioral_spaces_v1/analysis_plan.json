@@ -1,0 +1,43 @@
+{
+  "created_before_analysis": true,
+  "seed": 20260929,
+  "data_sha256": "d50e6b49de241e460fab5f18c06a87cf79324694b524258e244498a152480b1f",
+  "agents": {
+    "Human": "human_c",
+    "InternVL": "internvl_c",
+    "Qwen3": "model_c"
+  },
+  "n_images": 3888,
+  "primary_task": "mean of two asymmetric reference matches",
+  "rsa_entities": {
+    "shape": 36,
+    "illumination": 36
+  },
+  "rsa_distance": "mean squared Euclidean profile distance",
+  "rsa_statistic": "Spearman upper triangle; two-sided node-label permutation; BH across all 18 full-profile comparisons",
+  "n_permutations": 4999,
+  "n_node_bootstraps": 2000,
+  "spaces": [
+    "raw",
+    "physical_color_adjusted",
+    "interaction_only"
+  ],
+  "nuisance": "OLS: 50-level physical c, chroma categories, sine/cosine hue harmonics 1 and 2; fit only on training views. No held-out view coefficient estimated.",
+  "residuals": "out-of-view nuisance residuals; all subjects fit separately",
+  "low_rank": "sequential nuisance regression then doubly centered shape-by-illumination residual matrix SVD; signed, not sparse/nonnegative SPoSE",
+  "ranks": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "shrinkage": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "validation": "outer leave-one-view-out; inner two directional single-view validation on remaining views; choose minimum MSE, tie lower rank/shrinkage. Refits on two training views. All shape-light cells seen in train; unseen-view prediction, not unseen shape/light generalization.",
+  "primary_comparisons": "RSA interaction_only; nested prediction against additive baseline",
+  "scope": "Exploratory condition-profile behavior spaces, not neural representations or independent semantic/material similarity judgments. No new acquisitions. Full dataset includes prior development/pilot images; not a newly collected confirmatory cohort."
+}

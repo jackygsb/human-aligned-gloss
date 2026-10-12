@@ -1,0 +1,45 @@
+{
+  "title": "Human-aligned gloss judgments in frozen vision鈥搇anguage models: code and figure reproduction",
+  "upload_type": "software",
+  "description": "Prepared source release containing original code, experimental configurations and compact inputs for reproducing six main figures, supplementary figures S1鈥揝15 and tables S1鈥揝9. Shaobing Gao and Minjie Tan contributed equally. Shaobing Gao is the corresponding author (gaoshaobing@scu.edu.cn). Full raw responses and full activation arrays are separate data-release components. The MIT license applies only to original project code; third-party code, stimulus images, human data, environment maps and other research assets retain their original rights and notices, as detailed in THIRD_PARTY_NOTICES.md. GitHub repository: https://github.com/jackygsb/human-aligned-gloss. This repository is currently in private preparation. This file is proposed deposit metadata; no Zenodo record or DOI exists yet.",
+  "creators": [
+    {
+      "name": "Gao, Shaobing",
+      "affiliation": "School of Artificial Intelligence, Sichuan University"
+    },
+    {
+      "name": "Tan, Minjie",
+      "affiliation": "College of Computer Science and Artificial Intelligence, Southwest Minzu University"
+    },
+    {
+      "name": "Li, Yuanpeng",
+      "affiliation": "College of Computer Science, Sichuan University"
+    },
+    {
+      "name": "Tan, Xilin",
+      "affiliation": "College of Computer Science, Sichuan University"
+    },
+    {
+      "name": "Li, Changyu",
+      "affiliation": "College of Computer Science, Sichuan University"
+    },
+    {
+      "name": "Wei, Jianjun",
+      "affiliation": "College of Computer Science, Sichuan University"
+    },
+    {
+      "name": "Liu, Shihao",
+      "affiliation": "College of Computer Science, Sichuan University"
+    }
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "gloss perception",
+    "vision-language models",
+    "behavioral alignment",
+    "representational similarity analysis",
+    "reproducible research"
+  ]
+}

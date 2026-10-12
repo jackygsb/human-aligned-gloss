@@ -1,0 +1,49 @@
+{
+  "models": {
+    "InternVL": {
+      "test_images": 3888,
+      "single_responses": 3888,
+      "unique_pairs": 2000,
+      "pair_orders": 2,
+      "pair_responses": 4000,
+      "complete_matches": 7776,
+      "matching_responses": 46375,
+      "total_responses": 54263
+    },
+    "Qwen3": {
+      "test_images": 3888,
+      "single_responses": 3888,
+      "unique_pairs": 2000,
+      "pair_orders": 2,
+      "pair_responses": 4000,
+      "complete_matches": 7776,
+      "matching_responses": 46581,
+      "total_responses": 54469
+    }
+  },
+  "total_primary_responses": 108732,
+  "scope": "Primary three-task records only; practice, catch, pilots, other tasks and interventions excluded. Responses are model calls, not independent stimuli or observers.",
+  "count_checks": "InternVL unique request IDs and unique trial/step keys; Qwen request-file keys and all expected matching step-file keys.",
+  "count_sources": [
+    {
+      "path": "mllm_material\\manifests\\requests.jsonl",
+      "sha256": "5172dc5e6deb22f3cd0ce2fd503b51c42d40823dbc5aa1fc34db23daa3a5c80e"
+    },
+    {
+      "path": "mllm_material\\responses\\internvl35_4b\\full.jsonl",
+      "sha256": "cb8866280250fd4e5a27467670fbb4a2af5abd3f2fcc315ac8d54c926f6f8025"
+    },
+    {
+      "path": "mllm_material\\matching_full_v1\\trials.jsonl",
+      "sha256": "d61bf849846280cf4e17b95e4c30260868a2112df7c14a64c3734f79ada95f96"
+    },
+    {
+      "path": "mllm_material\\matching_full_v1\\decisions.jsonl",
+      "sha256": "dcfff011876290e495a510776a73db1c76493d14ea71060877c6c00a246566ee"
+    },
+    {
+      "path": "mllm_material\\qwen3_full_v1\\matches.csv",
+      "sha256": "adc5ce6743e8ec545c04757c454f1ded1aeced0afc1e15b2d9054feabe95cad3"
+    }
+  ]
+}

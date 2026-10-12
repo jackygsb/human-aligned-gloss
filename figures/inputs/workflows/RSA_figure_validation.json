@@ -1,0 +1,29 @@
+[
+  {
+    "observer": "Human",
+    "profile_shape": [
+      36,
+      36
+    ],
+    "n_unique_distances": 630,
+    "max_distance_reconstruction_error": 8.673617379884035e-19
+  },
+  {
+    "observer": "InternVL",
+    "profile_shape": [
+      36,
+      36
+    ],
+    "n_unique_distances": 630,
+    "max_distance_reconstruction_error": 2.6020852139652106e-18
+  },
+  {
+    "observer": "Qwen3",
+    "profile_shape": [
+      36,
+      36
+    ],
+    "n_unique_distances": 630,
+    "max_distance_reconstruction_error": 3.469446951953614e-18
+  }
+]

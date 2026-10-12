@@ -1,0 +1,7 @@
+{
+  "single_and_pair_system": "Make a visual judgment using the supplied image. Follow the response format exactly.",
+  "single": "Rate the apparent glossiness of the main object in this image.\nGlossiness means how matte or shiny the surface looks.\nUse an integer from 0 to 100: 0 = not at all glossy; 100 = extremely glossy.\nJudge the visible appearance, not the material name or its physical reflectance.\nReturn only {\"glossiness\": <integer>, \"status\": \"ok\"}.\nIf the image is unavailable or the main object cannot be identified, return only\n{\"glossiness\": null, \"status\": \"unrateable\"}.",
+  "pair": "Compare the apparent glossiness of the main objects in Image A and Image B.\nWhich object's surface looks glossier? Judge visible matte versus shiny appearance,\nnot the object category or the material's physical properties.\nChoose A, B, or tie if they appear equally glossy.\nReturn only a JSON object with keys \"choice\" and \"status\".\nThe value of \"choice\" must be \"A\", \"B\", or \"tie\"; \"status\" must be \"ok\".\nIf an image is unavailable or its main object cannot be identified, return only\n{\"choice\": null, \"status\": \"unrateable\"}.",
+  "matching_system": "You are a visual observer performing a surface-gloss matching task. Follow the response format exactly.",
+  "matching": "Compare the apparent surface gloss of the two objects. Which object looks glossier? Judge gloss, not overall brightness. Answer exactly A if Image A looks glossier, B if Image B looks glossier, or SAME if their surface gloss looks indistinguishable."
+}

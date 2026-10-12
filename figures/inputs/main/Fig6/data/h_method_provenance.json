@@ -1,0 +1,60 @@
+{
+  "example": "morimoto_0064",
+  "roi_xyxy": [
+    160,
+    65,
+    300,
+    305
+  ],
+  "selection": "Rank the 72 intervention images by the smaller of the two models' whole-image correlations with positive local brightness; visually inspect the top eight. Select morimoto_0064 (third ranked; visibly glossy curved surface) for legible highlight/response comparison. This is an illustrative selection, not a population estimate or highlight-segmentation test.",
+  "maps": "Unmodified token projections, per-model full-image min/max; full-frame overlay alpha .45, nearest-neighbor grid. Insets use the same ROI and color limits as the full frame.",
+  "dose": "a times reference_scale times candidate direction, added to every TEST image bridge token only",
+  "outcome": "Softmax normalized over A/B/SAME; test-glossier probability plus half SAME. Report changes in percentage points, not relative percentages.",
+  "scope": "72 images; 36 shapes; 2 viewpoints; illumination 1; both test/reference orders. Intervals are shape-cluster 95% bootstrap CIs.",
+  "sources": [
+    {
+      "path": "scripts/run_mechanism_v1.py",
+      "sha256": "677d542c4dfdc92ac86ce1e70b04e35be42b49165bc53a04d3aab81b055dafab"
+    },
+    {
+      "path": "scripts/mechanism_backend_v1.py",
+      "sha256": "1f4eb68d1c332da72f7dd796b8a25642e4e64e4a5db3d7937d3d5efea6aab265"
+    },
+    {
+      "path": "mllm_material/mechanisms_v1/tables/spatial_feature_associations.csv",
+      "sha256": "63b18f7df9de2dd4bc5bd72ed47df89a2da166890cb19e7a1ca7690431d85701"
+    },
+    {
+      "path": "mllm_material/nmi_revision_v8/source/tables/v8_intervention_dose_ci.csv",
+      "sha256": "dd158e72f4ab31b339610d01561ef0fb9c2f4497da6bfb565671935a06163f35"
+    },
+    {
+      "path": "mllm_material/mechanisms_v1/tables/shape_cluster_intervention_contrasts.csv",
+      "sha256": "3e3c9799e3c62d13de6feee5bddb5441ca609a5ec076d836104ed2753a25210a"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\InternVL\\directions.npz",
+      "sha256": "dc3788c1b7c05e4619396a3b53ef05124cffe50317fa81578be826d4c405150b"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\InternVL\\features\\morimoto_0064.npz",
+      "sha256": "032ebbfc8e2c96f2dc00a5ea91242904eae444753f0456ef4166f7aa0d900159"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\InternVL\\features\\morimoto_0088.npz",
+      "sha256": "992c2523611cd3aa422b85c97e123745212866784953c5b3dd226159c9239fc1"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\Qwen3\\directions.npz",
+      "sha256": "a514c627e3db3c885a5eee693f887a7dd7f116afbb37cedad00fba6dc009ec74"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\Qwen3\\features\\morimoto_0064.npz",
+      "sha256": "95d30c910ad6d0ee962d4f65b4b2a541fe8a3047dd1d2fb77975d568e66e6706"
+    },
+    {
+      "path": "mllm_material\\mechanisms_v1\\Qwen3\\features\\morimoto_0088.npz",
+      "sha256": "d89c29c59e87b99f0a3b355ca15502b647ec5bc4be31c980297d1864cb24417f"
+    }
+  ]
+}

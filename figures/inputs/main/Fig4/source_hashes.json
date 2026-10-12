@@ -1,0 +1,16 @@
+{
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_cross_task_ci.csv": "e87a790b3b8b3c1578240ac3586a6fc62b361e5613ca5e060e1f476a8b9ad725",
+  "mllm_material\\nmi_revision_v8\\source\\tables\\v8_pair_ci.csv": "4ab631225c0a5b25713516720cad72a0834e575b7643be3ea1614a6ea6fa3940",
+  "mllm_material\\paper_figures_v1\\source_data\\image_level_all3888.csv": "7164b8ad7bd996dfe83428cc4c90277307122f7fac265942cfc827cb0aa269b4",
+  "mllm_material\\qwen3_full_v1\\joint_model_predictions.csv": "d50e6b49de241e460fab5f18c06a87cf79324694b524258e244498a152480b1f",
+  "mllm_material\\paper_figures_v1\\source_data\\continuous_cross_task_oof.csv": "a702e05298c256bee5f0475e64fa801989612425629dd7664e1474bb5448f332",
+  "mllm_material\\qwen3_full_v1\\cross_shape_single_score.csv": "5f49b5337f2d260a59385348646f2f41b02b292240fc4d728e3d13da580f885f",
+  "mllm_material\\qwen3_full_v1\\cross_shape_model_c.csv": "0549bdfed989b5f86364d6d9c20d99367a50950d964b0add99002d5602f2dfc9",
+  "mllm_material\\qwen3_full_v1\\cross_illumination_single_score.csv": "20301309faf237f6cf8356627c8bc96ac5f016f070d622cd0282c16d3bbab327",
+  "mllm_material\\qwen3_full_v1\\cross_illumination_model_c.csv": "abc83d48a01ad2aaf642f348a4c92ff2129efb444a8e931f27fbbdfdcb0a4d3d",
+  "mllm_material\\paper_figures_v1\\source_data\\pair_cross_task_predictions.csv": "90e0ae42fb011ee55bd379aca999aa58f73c37d3ef8fb02255bf934ac4a015d2",
+  "mllm_material\\qwen3_full_v1\\pair_predictions.csv": "6a3dbda1e1b045e0c0f425284f1c1a689bc37cc8a1f2d64823c2dc8c01389d79",
+  "scripts\\build_paper_figures_v1.py": "369c82a2d66c7eecc3a4a11f30b863e0f0f27535d49fb236674422a9b68a4696",
+  "scripts\\analyze_qwen3_full.py": "a26cffaa8ce99080c3cda5f86da1f74de46bf40e8da0d4b4313b3646ee06898b",
+  "scripts\\revise_nmi_stats.py": "160ae41277f5c3c4ad4d6d16dd27034be1b23e829c71b6e7d8b8451e6e4502b7"
+}
